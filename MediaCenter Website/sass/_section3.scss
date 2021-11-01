@@ -1,0 +1,82 @@
+section.section3{
+    width: 85%;
+    height: 140px;
+    // border: 1px solid red;
+    margin-top: 120px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div.left_part{
+        width: 560px;
+        height: 140px;
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/banner-narrow-01.jpg);
+        background-size: 98%;  
+        background-position: center;  
+        background-repeat: no-repeat;
+        transition: 1s;
+        &:hover{background-size: 110%; background-position: center;}
+        div.text{
+            width: 280px;
+            height: 100px;
+            // border: 1px solid red;
+            margin-left: 30px;
+            h1{font-weight: bold;}
+            p{font-size: 22px; color:rgb(94, 92, 92);}
+        }
+      
+    }
+    div.right_part{
+        width: 560px;
+        height: 140px;
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/banner-narrow-02.jpg);
+        background-size: 98%;  
+        background-position: center;  
+        background-repeat: no-repeat;
+        transition: 1s;
+        &:hover{background-size: 110%; background-position: center;}
+        div.text{
+            width: 280px;
+            height: 100px;
+            // border: 1px solid red;
+            margin-left: 250px;
+            box-sizing: border-box;
+            padding-left: 30px;
+            h1{font-weight: bold;}
+            p{font-size: 22px; color:rgb(94, 92, 92);}
+        }
+        
+    }
+}
+
+@media only screen and(max-width:760px) {
+    section.section3{
+        margin-top: 500px;
+        margin-left: 40px;
+        div.left_part{
+            width: 450px;
+            
+           
+           div.text{
+              h1{font-size: 30px;} 
+               p{font-size: 14px;}
+           }
+        }
+        div.right_part{
+            width: 420px;
+            div.text{
+                margin-top: 20px;
+                margin-left: 200px;
+                h1{font-size: 20px;} 
+                 p{font-size: 14px;}
+             }
+        }
+    }
+}

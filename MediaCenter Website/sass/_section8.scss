@@ -1,0 +1,67 @@
+section.section8{
+  
+    div.container-fluid{
+        height: 550px;
+      //  border: 1px solid red;
+        background-color: #f3f1f1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-bottom: 1px solid rgb(207, 205, 205);
+        div.contentBox{
+            width: 370px;
+            height: 500px;
+            //border: 1px solid red;
+            div.head-text{
+                width: 100%;
+                height: 100px;
+                border-bottom: 1px solid rgb(202, 201, 201);
+                box-sizing: border-box;
+                padding-top: 30px;
+                font-size: 24px;
+                color: rgb(82, 80, 80);
+                margin-bottom: 20px;
+            }
+            div.productContent{
+                width: 100%;
+                height: 110px;
+                //border: 1px solid red;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                div.product-text{
+                    width: 300px;
+                    height: 95px;
+                   // border: 1px solid red;
+                    h6{margin-top: 10px; a{text-decoration: none; color: #1257ab;}}
+                    del{
+                        color: grey;
+                        margin-right: 5px;
+                    }
+                    span{
+                        .fa-star{color: yellow;}
+                        .fa-star-o{color: yellow;}
+                    }
+                }
+                div.product-photo{
+                    width: 95px;
+                    height: 90px;
+                    
+                    border: 1px solid rgb(201, 199, 199);
+                    img{width: 90px;height: 80px;}
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and(max-width:760px) {
+    section.section8{
+        margin-top: 200px;
+        div.container-fluid{
+            height: 1500px;
+        }
+    }
+}

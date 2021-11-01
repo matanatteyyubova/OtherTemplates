@@ -1,0 +1,1330 @@
+body,*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(231, 228, 228)
+}
+header{
+    flex-wrap: ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+   
+    
+}
+.logo{
+    margin-left: 20px;
+}
+
+  header nav ul{
+    width: 520px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;}
+
+
+li{
+    list-style: none
+}
+  li a{
+     text-decoration: none;
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+    font-weight: 25px;
+    
+     
+ }
+  li a:hover{
+    
+     color: blue;
+     
+ }
+ .inp{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-right: 10px;
+     width: 310px;
+ }
+.icon{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(221, 219, 219);
+    padding-top:10px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+}
+input.one{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(231, 228, 228);
+    
+}
+input.one:focus{
+    outline: none;
+}
+div.main{
+    
+    width: 1230px;
+    height: 600px;
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: royalblue;
+    background-image: url(../image/gallery-post-01.jpg);
+    position: relative;
+    margin-bottom: 160px;
+    border-radius: 10px;
+}
+div.content{
+    width: 560px;
+    height: 350px;
+    position: absolute;
+    bottom: -140px;
+    right: 110px;
+    background-color:white;
+    border-radius: 10px;
+
+}
+div p{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #D93E40;
+}
+div h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h2:hover{
+    text-decoration:underline;
+    
+}
+
+
+
+div .nextback{
+    display: flex;
+    justify-content: space-around; 
+    width: 120px;
+    position: absolute;
+    bottom: -60px;
+    left: 100px;
+} 
+div .nbtn{
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px; 
+    
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+}
+div .bbtn{
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px; 
+    
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+}
+div .metadiv{
+    
+    width: 220px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+
+    
+    
+}
+ .bbtn:hover{
+     background-color: white;
+ }
+ .nbtn:hover{
+    background-color: white;
+}
+div .inmetadiv{
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+   
+    margin-left: 10px;
+    margin-top: 2px;
+    background-image:url(../image/author-image-3.png) ;
+    
+
+}
+div .behindmetadiv{
+   margin-left:10px; 
+}
+
+h5{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div .behindmetadiv ul{
+ 
+    width: 130px;
+    height: 20px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    font-size: 12px;
+}
+div .socialm{
+    
+    width: 80px;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: -53px;
+   
+}
+div .socialm ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top:15px;
+}
+.inpt{
+    margin-left: 380px;
+    margin-top:-50px;
+    width: 140px;
+    height: 55px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: rgb(86, 86, 226);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Birinci hisse sonu */
+ div .insection2 h1{
+    
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: 40px;
+}
+div .section2{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+   
+
+
+
+}
+.content2{
+    width: 600px;
+    height: 320px;
+    margin-top: 20px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+   margin-left: 690px;
+   
+
+
+}
+.content2:hover{
+background-color: white;
+}
+.metadiv2{
+  
+    width: 800px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.inmetadiv2{
+    width:55px;
+    height:55px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-image:url(../image/author-image-1.png) ;
+   
+}
+.behindmetadiv2{
+    margin-left:10px; 
+}
+.behindmetadiv2 ul{
+    width: 130px;
+    height: 20px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div p{
+    margin-top: 40px;
+    margin-left: 40px;
+    color:D93E40;
+ }
+ .content3{
+    width: 600px;
+    height: 320px;
+    margin-right: 30px;
+    margin-top: -255px;
+    margin-left:-740px;
+    background-color:white;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  
+    border: 0.5px solid grey;
+}
+.content3:hover{
+    background-color:rgb(221, 219, 219);;
+}
+.metadiv3{
+  
+    width: 400px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.inmetadiv3{
+    width:55px;
+    height:55px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-image:url(../image/author-image-2.png) ;
+    
+    
+}
+.behindmetadiv3{
+    margin-left:10px; 
+}
+.behindmetadiv3 ul{
+    width: 130px;
+    height: 20px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div p{
+    margin-top: 40px;
+    margin-left: 40px;
+    color:#D93E40;
+ }
+ div .foto{
+    width: 250px;
+    height: 250px;
+
+    position:absolute;
+    margin-left: 220px;
+    margin-top: -210px;
+    border-radius: 125px;
+    background-image: url(../image/post-images-1.jpg);
+ }
+ div .foto2{
+    width: 250px;
+    height: 250px;
+ 
+    position:absolute;
+    margin-left: 220px;
+    margin-top: -230px;
+    border-radius: 125px;
+    background-image: url(../image/post-images-1.jpg);
+
+
+}
+/* Ikinci hisse sonu */
+div .section3{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1000px;
+   
+
+    margin-top: 100px;
+    padding-top: 80px;
+    background-color: white;
+}  
+div .navbar2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+} 
+span ul{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+span ul li a{
+    display: block;
+    border: 1px solid grey;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:white
+}
+span ul li a:hover{
+border:none;
+
+}
+ .insection3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 95%;
+    justify-content: space-around;
+}
+div.one{
+    width: 380px;
+    height: 437px;
+    border-radius: 10px;
+    background-color:rgb(238, 238, 238);  
+}
+
+
+
+
+    
+  .one1{ 
+    width: 380px;
+    height: 260px;
+    margin-top: 45px;
+    border-radius: 100% 100% 0 0;
+    cursor: pointer;
+    transition:1s;
+   background-image: url(../image/post-column-04.jpg);
+   background-size: 100%;
+   background-position: center;   
+   
+ }  
+
+
+    div .one1:hover {
+       background-size: 120%;
+       background-position: center;
+    
+        
+    }
+   
+    .one2{ 
+        width: 380px;
+        height: 260px;
+        margin-top: 45px;
+        border-radius: 100% 100% 0 0;
+        cursor: pointer;
+        transition:1s;
+       background-image: url(../image/post-column-05.jpg);
+       background-size: 100%;
+       background-position: center;   
+       
+     }  
+    
+    
+        div .one2:hover {
+           background-size: 120%;
+           background-position: center;
+        
+            
+        }
+
+        .one3{ 
+            width: 380px;
+            height: 260px;
+            margin-top: 45px;
+            border-radius: 100% 100% 0 0;
+            cursor: pointer;
+            transition:1s;
+           background-image: url(../image/post-column-06.jpg);
+           background-size: 100%;
+           background-position: center;   
+           
+         }  
+        
+        
+            div .one3:hover {
+               background-size: 120%;
+               background-position: center;
+            
+                
+            }
+           
+       
+
+
+div .fotocontent{
+    width: 92%;
+    height: 200px;
+    
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+div .fotocontent .two1{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-01.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two1:hover{
+    background-size: 120%;
+    background-position: center;
+}
+
+div .fotocontent .two2{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-02.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two2:hover{
+    background-size: 120%;
+    background-position: center;
+}
+div .fotocontent .two3{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-03.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two3:hover{
+    background-size: 120%;
+    background-position: center;
+}
+div .fotocontent .two4{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-04.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two4:hover{
+    background-size: 120%;
+    background-position: center;
+}
+div .fotocontent .two5{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-05.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two5:hover{
+    background-size: 120%;
+    background-position: center;
+}
+div .fotocontent .two6{
+    width: 180px;
+    height: 180px;
+    background-image: url(../image/post-sm-06.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .fotocontent .two6:hover{
+    background-size: 120%;
+    background-position: center;
+}
+div .fotocontent h3{
+    font-size: 22px;
+     color: white; 
+     margin-top: 130px; 
+     text-align: center;
+}
+   }
+   div .insection4 li {
+       list-style: none;
+       font-size: 20px;
+   }
+   div .insection4 li a{
+       text-decoration: none;
+       color: blue;
+   }
+   div .insection4{
+       display: flex;
+       align-items: center;
+       justify-content: space-between
+   }
+   div .insection4 {
+      
+       margin-top: 80px;
+       width: 92%;
+       margin-left: 60px;
+    }
+    /* Besinci hisse */
+    section.section5{
+        width: 100%;
+        height: 1250px;
+        background-color: white;
+        border: 1px solid white;
+      
+    }
+    div .allcontent{
+        width: 800px;
+        height: 200px;
+        border-bottom: 1px solid gray;
+        margin-left: 40px;
+        display: flex;
+        margin-top: 30px;
+        transition: 0.1s;
+    }
+  div.allcontent:hover{
+      transition-property: border;
+      border-bottom: 2px solid blue;
+      transition-timing-function:linear}
+    
+      div.allcontent2:hover{
+        transition-property: border;
+        border-bottom: 2px solid blue;
+        transition-timing-function:linear
+      
+  }
+  div.allcontent3:hover{
+    transition-property: border;
+    border-bottom: 2px solid blue;
+    transition-timing-function:linear
+  }
+  div.allcontent4:hover{
+    transition-property: border;
+    border-bottom: 2px solid blue;
+    transition-timing-function:linear
+  }
+    div .allcontent2{
+        width: 800px;
+        height: 200px;
+        border-bottom: 1px solid gray;
+        margin-left: 40px;
+        display: flex;
+        margin-top: 30px;
+    }
+    div.allcontent:hover+div.foto1{
+        display: none;
+    }
+    div .allcontent3{
+        width: 800px;
+        height: 200px;
+        border-bottom: 1px solid gray;
+        margin-left: 40px;
+        display: flex;
+        margin-top: 30px;
+    }
+    div .allcontent4{
+        width: 800px;
+        height: 200px;
+        border-bottom: 1px solid gray;
+        margin-left: 40px;
+        display: flex;
+        margin-top: 30px;
+        
+    }
+
+}
+    div .minileft{
+        width: 60px;
+        height: 200px;
+       
+    }
+    div .mediumright{
+        width: 740px;
+        height: 200px;
+         /* border: 1px solid red;  */
+       
+    }
+    div .smallmedium{
+        width: 740px;
+        height: 60px;
+        /* border: 1px solid red;  */
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+ div .photo .photo1{
+     width: 400px;
+     height: 400px;
+     /* border: 1px solid red; */
+     position: relative;
+     background-image: url(../image/trend-post-01.jpg);
+     background-size: cover;
+     background-position: center;
+     visibility: visible;
+     transition: 1s;
+     border-radius: 10px; 
+ }
+ 
+ }
+ div .photo .photo1:hover{
+     transform: scale(1.1);
+ }
+ 
+ div .photo .photo2{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid green; */
+    margin-top: -180px;
+    background-image: url(../image/trend-post-02.jpg);
+    background-size: cover;
+    background-position: center;
+    visibility: hidden;
+    border-radius: 10px;
+}
+div .photo .photo3{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid blue; */
+    margin-top: -167px;
+    position: relative;
+    background-image: url(../image/trend-post-03.jpg);
+    background-size: cover;
+    background-position: center;
+    visibility: visible;
+    transition: 1s;
+    border-radius: 10px;
+}
+div .photo .photo3:hover{
+    transform: scale(1.1);
+}
+div .photo .photo4{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin-top: -400px;
+    border-radius: 10px;
+    background-image: url(../image/trend-post-04.jpg);
+    background-size: cover;
+    background-position: center;
+    visibility: hidden;
+}
+/* Besinci hisse sonu */
+
+
+section.section6 div.navbar3{
+    width: 93%;
+    height: 110px;
+    border:1px solid white;
+    margin-top: 80px;
+    margin-left: 40px;
+    align-items: center;
+    background-color: white;
+    display: block;
+}
+div.navbar3 nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+div.navbar3 nav ul li{
+    width: 120px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+section.minisection{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+section aside .asideonebox{
+    width: 700px;
+    height: 700px;
+    
+    position: relative;
+    border-radius: 10px;
+    background-image:url(../image/post-grid-01.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 3s;
+    background-repeat: no-repeat;
+
+}
+section aside .asideonebox:hover{
+    background-size:120% ;
+    background-position: center;
+    
+}
+
+section aside .miniasideonebox{
+    position: relative;
+    margin-top: -250px;
+    margin-left: 40px;
+    background-color: white;
+    width: 620px;
+    height: 270px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+aside.asidetwo div.asidetwoone{
+    width: 510px;
+    height: 300px;
+    display: block;
+    border:1px solid rgb(241, 239, 239);
+    border-radius: 10px;
+    background-image:url(../image/post-grid-07.jpg);
+    background-size:100%;
+    background-position: center;
+    transition: 1s;
+
+}
+aside.asidetwo div.asidetwoone:hover{
+    background-size: 110%;
+    background-position: center;
+}
+
+div.asidetwoone div.child{
+    width: 410px;
+    height: 150px;
+    border:1px solid white;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+aside.asidetwo div.asidetwotwo{
+ 
+    width: 510px;
+    height: 300px;
+    border:1px solid rgb(241, 239, 239);
+    margin-top: 80px;
+    border-radius: 10px;
+    background-image:url(../image/post-grid-07.jpg);
+    background-size:100%;
+    background-position: center;
+    transition: 1s;
+    
+}
+aside.asidetwo div.asidetwotwo:hover{
+    background-size: 110%;
+    background-position: center;
+}
+
+
+div.asidetwotwo div.child2{
+    width: 410px;
+    height: 150px;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+aside.asidetwo h3{
+    font-size: 26px;
+    margin-top: -10px;
+    margin-left: 30px;
+
+}
+aside.asidetwo  p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color:#D93E40
+}
+/* ///////////////////////// */
+section.section7{
+    width: 100%;
+    height: 1800px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+section.section7 div.asideleft{
+    margin-left:30px;
+    width: 810px;
+    height: 1500px;
+    
+
+}
+section.section7 div.asideleft img{
+    margin-top: 70px;
+}
+
+section.section7 div.asideright{
+    margin-left:0px;
+    width: 430px;
+    height: 1500px;
+    
+}
+section.section7 div.box{
+    width: 808px;
+    height: 250px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* border:1px solid red */
+}
+section.section7 div.box div.minibox1{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-image: url(../image/post-list-11.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox22{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-image: url(../image/post-list-12.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox3{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-image: url(../image/post-list-15.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox4{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-image: url(../image/post-list-13.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox5{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red; */
+    background-image: url(../image/post-list-14.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox2{
+    width: 480px;
+    height: 250px;
+    border: 1px solid #d3d3dd; 
+    border-radius: 10px;
+}
+section.section7 div.box div.minibox2 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color:#D93E40    
+}
+section.section7 div.box div.minibox2 h3{
+    font-size: 26px;
+    margin-top: -10px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+
+}
+section.section7 div.asideright div.stepone{
+    width: 380px;
+    height:160px;
+    
+    margin-top:70px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section.section7 div.asideright div.stepone div.ministepone1{
+    width: 180px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    background-color:#FBFBFD;
+}
+section.section7 div.asideright div.stepone div.ministepone2{
+    width: 180px;
+    height: 60px;
+     
+    display: flex;
+    align-items: center;
+    background-color:#FBFBFD;
+}
+section.section7 div.asideright div.stepone div.ministepone3{
+    width: 180px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center; 
+    background-color:#FBFBFD;
+}
+section.section7 div.asideright div.stepone div.ministepone4{
+    width: 180px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    background-color:#FBFBFD;  
+}
+section.section7 div.asideright div.stepone div.ministepone1 div.divicon{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(221, 219, 219);
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    border-radius: 30px; 
+    background-image: url(../image/category-image-01.jpg);
+    background-size: 100%;
+    background-position: center;
+      
+}
+section.section7 div.asideright div.stepone div.ministepone2 div.divicon2{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(221, 219, 219);
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    border-radius: 30px;   
+    background-image: url(../image/category-image-02.jpg);
+    background-size: 100%;
+    background-position: center;
+      
+}
+section.section7 div.asideright div.stepone div.ministepone3 div.divicon3{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(221, 219, 219);
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    border-radius: 30px; 
+    background-image: url(../image/category-image-03.jpg);
+    background-size: 100%;
+    background-position: center;
+        
+}
+section.section7 div.asideright div.stepone div.ministepone4 div.divicon4{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(221, 219, 219);
+    padding-top:10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    border-radius: 30px;   
+    background-image: url(../image/category-image-04.jpg);
+    background-size: 100%;
+    background-position: center;
+      
+}
+
+section.section7 div.asideright div.stepone  li a{
+    font-size: 22px;
+    margin-left: 10px;
+    color: #65676B;
+}
+section.section7 div.asideright div.stepone2{
+    width: 380px;
+    height:160px;
+    border:1px solid #FBFBFD;
+    margin-top: 30px;
+    background-color: #FBFBFD; 
+    border-radius: 10px;
+}
+section.section7 div.asideright div.stepone2 h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section.section7 div.asideright div.stepone3 h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section.section7 div.asideright div.stepone2 hr{
+    width:340px ;
+    margin-left: 20px;
+}
+section.section7 div.asideright div.stepone3 hr{
+    width:340px ;
+    margin-left: 20px;
+}
+section.section7 div.asideright div.stepone2 input.search{
+    width: 340px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(231, 228, 228);
+    font-size: 14px;
+}
+section.section7 div.asideright div.stepone3{
+    width: 380px;
+    height: 530px;
+    border:1px solid #FBFBFD;
+    background-color: #FBFBFD;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+section.section7 div.asideright div.stepone3 div.ministepone3{
+    width: 340px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3left{
+    width: 110px;
+    height: 110px;
+    /* border:1px solid red; */
+    border-radius: 10px;
+    background-image: url(../image/blog-sm-01.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3right{
+    width: 210px;
+    height: 120px;
+    /* border:1px solid red; */
+    border-radius: 10px;
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3right p,a{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3right p:hover{
+    text-decoration: underline;
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3left2{
+    width: 110px;
+    height: 110px;
+    /* border:1px solid red; */
+    border-radius: 10px;
+    background-image: url(../image/blog-sm-02.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone3 div.ministepone3 div.ministepone3left3{
+    width: 110px;
+    height: 110px;
+    /* border:1px solid red; */
+    border-radius: 10px;
+    background-image: url(../image/blog-sm-03.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+/* ////////////////////////////////////////////////// */
+section.section7 div.asideright div.stepone4{
+    width: 380px;
+    height: 150px;
+    margin-top: 30px;
+    border: 1px solid #FBFBFD;
+    background-color: #FBFBFD;
+    border-radius: 10px;
+
+}
+section.section7 div.asideright div.stepone4 h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+section.section7 div.asideright div.stepone4 hr{
+    width: 340px;
+    margin-left: 20px;
+}
+section.section7 div.asideright div.stepone4 div.lasticon{
+    width: 270px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+section.section7 div.asideright div.stepone4 div.lasticon div.minilasticon,div.minilasticon2,div.minilasticon3,div.minilasticon4,div.minilasticon5{
+    width: 40px;
+    height: 40px;
+    /* border:1px solid red; */
+    border-radius: 20px;
+    background-color:rgb(241, 238, 238) ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+section.section7 div.asideright div.stepone5{
+    width: 380px;
+    height: 340px;
+    margin-top: 30px;
+    border: 1px solid #FBFBFD;
+    background-color: #FBFBFD;
+    border-radius: 10px;
+
+}
+section.section7 div.asideright div.stepone5 h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;  
+}
+section.section7 div.asideright div.stepone5 hr{
+    width: 340px;
+    margin-left: 20px;  
+}
+section.section7 div.asideright div.stepone5 div.insta{
+    width: 350px;
+    height: 240px;
+    /* border: 1px solid red; */
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section.section7 div.asideright div.stepone5 div.insta1{
+    width: 100px;
+    height: 100px;
+     transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-01.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta2{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-02.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta3{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-03.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta4{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-04.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta5{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-05.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta6{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    border-radius: 10px;
+    background-image: url(../image/instagram-06.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+section.section7 div.asideright div.stepone5 div.insta1:hover{
+    background-size: 110%;
+    background-position: center;
+    }
+section.section7 div.asideright div.stepone5 div.insta2:hover{
+        background-size: 110%;
+        background-position: center;
+  }
+section.section7 div.asideright div.stepone5 div.insta3:hover{
+    background-size: 110%;
+    background-position: center;
+    } 
+section.section7 div.asideright div.stepone5 div.insta4:hover{
+        background-size: 110%;
+        background-position: center;
+ }
+ section.section7 div.asideright div.stepone5 div.insta5:hover{
+    background-size: 110%;
+    background-position: center;
+    }
+    section.section7 div.asideright div.stepone5 div.insta6:hover{
+        background-size: 110%;
+        background-position: center;
+        }    

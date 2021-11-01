@@ -1,0 +1,293 @@
+section.section_five{
+    div.container-fluid{
+        height: 1300px;
+        border: 1px solid white;
+        text-align: center;
+        p.p1{
+            font-size: 22px;
+            color: orangered;
+            margin-top: 150px;
+            font-weight: bold;
+        }
+        p.p1::before{
+            content: " ";
+            position: absolute;
+            margin-top: 16px;
+            margin-left: -45px;
+             width: 30px;
+             height: 2px;
+             background-color: orangered;
+        }
+        p.p1::after{
+            content: " ";
+            position: absolute;
+            margin-top: 16px;
+            margin-left: 15px;
+             width: 30px;
+             height: 2px;
+             background-color: orangered;
+        }
+
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        div.row{
+           
+            height:900px;
+            margin-top: 60px;
+           div.col-lg4{
+                width: 350px;
+                height: 400px;
+                margin-left: 30px;
+                margin-bottom: 30px;
+                .triangle-bottomleft { 
+                    width: 0; 
+                    height: 0; 
+                    border-bottom: 320px solid orangered; 
+                    border-right: 350px solid transparent; 
+                    margin-top: 80px;
+                    position: absolute;
+                    opacity: 0.4;
+                 }
+                 .triangle-bottomleft2 { 
+                    width: 0; 
+                    height: 0; 
+                    border-bottom: 260px solid orangered; 
+                    border-right: 290px solid transparent; 
+                    margin-top: 140px;
+                    position: absolute;
+                   
+                 }
+                div.photo_content{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/01.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                  h5{
+                      color: white;
+                      margin-top: 290px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 20px;
+                      margin-left: 25px;
+                  }
+                  p{
+                    color: white;
+                    margin-top: 330px;
+                    position: absolute;
+                    z-index: 99999;
+                    font-size: 18px;
+                    margin-left: 25px;
+                }
+                i{
+                    z-index: 99999; 
+                    position: absolute; 
+                    color: white;
+                    margin-top: 250px;
+                    font-size: 30px;
+                    margin-left: -150px;
+                }
+                }
+                div.photo_content1{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/02.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                    h5{
+                        color: white;
+                        margin-top: 290px;
+                        position: absolute;
+                        z-index: 99999;
+                        font-size: 20px;
+                        margin-left: 25px;
+                    }
+                    p{
+                      color: white;
+                      margin-top: 330px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 18px;
+                      margin-left: 25px;
+                  }
+                  i{
+                      z-index: 99999; 
+                      position: absolute; 
+                      color: white;
+                      margin-top: 250px;
+                      font-size: 30px;
+                      margin-left: -150px;
+                  }
+                    
+                }
+                div.photo_content2{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/03.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                    h5{
+                        color: white;
+                        margin-top: 290px;
+                        position: absolute;
+                        z-index: 99999;
+                        font-size: 20px;
+                        margin-left: 25px;
+                    }
+                    p{
+                      color: white;
+                      margin-top: 330px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 18px;
+                      margin-left: 25px;
+                  }
+                  i{
+                      z-index: 99999; 
+                      position: absolute; 
+                      color: white;
+                      margin-top: 250px;
+                      font-size: 30px;
+                      margin-left: -150px;
+                  }
+                 
+                }
+                div.photo_content3{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/04.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                    h5{
+                        color: white;
+                        margin-top: 290px;
+                        position: absolute;
+                        z-index: 99999;
+                        font-size: 20px;
+                        margin-left: 25px;
+                    }
+                    p{
+                      color: white;
+                      margin-top: 330px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 18px;
+                      margin-left: 25px;
+                  }
+                  i{
+                      z-index: 99999; 
+                      position: absolute; 
+                      color: white;
+                      margin-top: 250px;
+                      font-size: 30px;
+                      margin-left: -150px;
+                  }
+                   
+                }
+                div.photo_content4{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/05.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                    h5{
+                        color: white;
+                        margin-top: 290px;
+                        position: absolute;
+                        z-index: 99999;
+                        font-size: 20px;
+                        margin-left: 25px;
+                    }
+                    p{
+                      color: white;
+                      margin-top: 330px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 18px;
+                      margin-left: 25px;
+                  }
+                  i{
+                      z-index: 99999; 
+                      position: absolute; 
+                      color: white;
+                      margin-top: 250px;
+                      font-size: 30px;
+                      margin-left: -150px;
+                  }
+                   
+                }
+                div.photo_content5{
+                    margin-left: -12px;
+                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/feature/06.jpg);
+                    background-size: 100%;
+                    background-position: center;
+                    width: 348px;
+                    height: 400px;
+                    transition: 1s;
+                    &:hover{
+                        background-size: 120%;
+                        background-position: center;
+                    }
+                    h5{
+                        color: white;
+                        margin-top: 290px;
+                        position: absolute;
+                        z-index: 99999;
+                        font-size: 20px;
+                        margin-left: 25px;
+                    }
+                    p{
+                      color: white;
+                      margin-top: 330px;
+                      position: absolute;
+                      z-index: 99999;
+                      font-size: 18px;
+                      margin-left: 25px;
+                  }
+                  i{
+                      z-index: 99999; 
+                      position: absolute; 
+                      color: white;
+                      margin-top: 250px;
+                      font-size: 30px;
+                      margin-left: -150px;
+                  }
+                   
+                }
+            }
+        }
+    }
+}

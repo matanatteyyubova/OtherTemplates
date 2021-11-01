@@ -1,0 +1,83 @@
+header{
+   height: 50px;
+    nav{
+      
+        div.container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            ul.navbar{
+                width: 450px;
+                li{
+                    .active{color: rgb(93, 182, 93);}
+                    border-right: 1px solid rgb(214, 209, 209);
+                    width: 65px;
+               
+                 list-style: none;
+                 a{text-decoration: none; color: grey; font-size: 14px;}
+                 .dropdown_menu-nav.active{
+                     display: block;
+                 }
+                 .dropdown_menu-nav-2.active{
+                     display: block;
+                 }
+                 .dropdown_menu-nav-3.active{
+                    display: block;
+                }
+                .dropdown_menu-nav-4.active{
+                    display: block;
+                }
+                 ul{
+                     display: none;
+                     width: 160px;
+                     padding-left: 0;
+                     margin-left: -20px;
+                     background-color: white;
+                     border: 1px solid green;
+                     position: absolute;
+                     li{
+                         width: 150px;  margin-left: 0;background-color: white;
+                        }
+                 }
+                }
+            }
+            div.navbar2{
+                margin-top: 10px;
+                ul{
+                    display: flex;
+                    width: 500px;
+                    justify-content: space-around;
+                    .one{box-sizing: border-box;padding-left: 30px; width: 80px;}
+                    .two{box-sizing: border-box;padding-left: 20px; width: 70px;}
+                    li{
+                        list-style: none;
+                        border-right: 1px solid rgb(214, 209, 209);
+                        width: 90px;
+                     
+                        a{
+                         text-decoration: none;
+                         color: grey;
+                         font-size: 14px;
+                         
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    
+@media only screen and(max-width:800px) {
+    header{
+        height: 120px;
+        div.container{
+            div{margin-top: 30px;}
+            div.navbar2{
+                margin-left: -40px;
+            }
+        }
+    }
+}

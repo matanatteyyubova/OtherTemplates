@@ -1,0 +1,61 @@
+section.section5{
+    width: 90%;
+    height: 200px;
+    // border: 1px solid red;
+    margin-top: 120px;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    div.box1{
+        width: 220px;
+        height: 200px;
+        border: 1px solid white;
+        background-image: url(../image/client-1.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.box2{
+        width: 220px;
+        height: 200px;
+        border: 1px solid white;
+        background-image: url(../image/client-2.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.box3{
+        width: 220px;
+        height: 200px;
+        border: 1px solid white;
+        background-image: url(../image/client-3.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.box4{
+        width: 220px;
+        height: 200px;
+        border: 1px solid white;
+        background-image: url(../image/client-4.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.box5{
+        width: 220px;
+        height: 200px;
+        border: 1px solid white;
+        background-image: url(../image/client-5.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width:700px){
+    section.section5{
+  margin-top: 700px;
+    }
+}

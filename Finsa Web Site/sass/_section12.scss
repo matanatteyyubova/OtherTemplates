@@ -1,0 +1,157 @@
+section.section_twelve{
+    margin-top: 150px;
+    div.container{
+        margin-top: 40px;
+     
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div.text{
+            p.p1{ font-size: 22px; font-weight: bold; color: orangered; margin-left: 40px;}
+            p.p1::before{
+                content: " ";
+               position: absolute;
+               margin-top: 15px;
+               margin-left: -35px;
+                width: 30px;
+                height: 2px;
+                background-color: orangered;
+            }
+            h1{
+                font-size: 50px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            
+        }
+        div.button{
+            button{
+                width: 200px;
+                height: 70px;
+                border: none;
+                border-radius: 40px;
+                margin-top: 40px;
+                background-color:orangered;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                z-index: 1;
+                position: relative;
+               
+            }
+            .main-btn::after{
+                z-index: -1;
+                content: '';
+                width: 80px;
+                height: 55px;
+                background-color: #14212b;
+                position: absolute;
+                top: 10%;
+                right: 10%;
+                border-radius: 40px;
+                transition: 1s;
+            }
+           
+            button:hover::after{
+                width: 204px;
+                height: 74px;
+                margin-top: -8px;
+                margin-right: -22px;
+              
+            }
+        }
+        div.card{
+            &:hover{border-bottom: 5px solid orangered;}
+            h4{
+                margin-bottom: 30px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    transition: 1s;
+                    &:hover{color: orangered;}
+                }
+            }
+            p.date{
+                font-size: 22px;
+                color: orangered;
+                font-weight: bold;
+            }
+            p{
+                font-size: 18px;
+                color: grey;
+                line-height: 30px;
+            }
+            h5{
+                margin-top: 0px;
+                transition: 1s;
+               
+                &:hover{color: orangered; a{color: orangered;}}
+                
+              a{
+                  text-decoration: none;
+                  color: black;
+                 
+              }
+             
+            }
+            div.card-body{
+                box-sizing: border-box;
+                padding: 30px;
+                background-color: #f5f5f5;
+            }
+        }
+        div.img1{
+            width: 22rem;
+            height: 250px;
+            background-size: 100%;
+            background-position: center;
+            background-image: url(https://webtend.net/demo/html/finsa/assets/img/latest-post/01.jpg);
+            transition: 1s;
+            &:hover{
+                background-size: 120%;
+                background-position: center;
+            }
+        
+        }
+        div.img2{
+            width: 22rem;
+            height: 250px;
+            background-size: 100%;
+            background-position: center;
+            background-image: url(https://webtend.net/demo/html/finsa/assets/img/latest-post/02.jpg);
+            transition: 1s;
+            &:hover{
+                background-size: 120%;
+                background-position: center;
+            }
+        }
+        div.img3{
+            width: 22rem;
+            height: 250px;
+            background-size: 100%;
+            background-position: center;
+            background-image: url(https://webtend.net/demo/html/finsa/assets/img/latest-post/03.jpg);
+            transition: 1s;
+            &:hover{
+                background-size: 120%;
+                background-position: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:768px){
+    section.section_twelve{
+        div.container:nth-child(1){
+           
+            height: 300px;
+        }
+        div.container:nth-child(2){
+            margin-left: 150px !important;
+            div.card{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

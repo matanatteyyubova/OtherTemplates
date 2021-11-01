@@ -1,0 +1,113 @@
+section.section_three{
+    width: 100%;
+    height: 950px;
+    border: 1px solid white;
+    background-color: #f5f5f5;
+    margin-top: 150px;
+    background-image: url(https://webtend.net/demo/html/finsa/assets/img/lines/07.png);
+    
+    div.corner1{
+        width: 0; 
+        height: 0; 
+        border-top: 440px solid orangered;
+        opacity: 0.2; 
+        position: absolute;
+        border-right: 420px solid transparent; 
+    }
+    div.corner2{
+        width: 0; 
+        height: 0; 
+        position: absolute;
+        border-top: 240px solid orangered;
+        border-right: 240px solid transparent; 
+    }
+    .container-fluid{
+    height: 800px;
+    text-align: center;
+    p.p1{
+        font-size: 22px;
+        color: orangered;
+        margin-top: 150px;
+        font-weight: bold;
+    }
+    p.p1::before{
+        content: " ";
+        position: absolute;
+        margin-top: 16px;
+        margin-left: -45px;
+         width: 30px;
+         height: 2px;
+         background-color: orangered;
+    }
+    p.p1::after{
+        content: " ";
+        position: absolute;
+        margin-top: 16px;
+        margin-left: 15px;
+         width: 30px;
+         height: 2px;
+         background-color: orangered;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    div.container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .box{
+            width: 350px;
+            height: 420px;
+            border: 1px solid white;
+            background-color: white;
+            box-sizing: border-box;
+            padding: 50px;
+            &:hover::after{
+                
+             background-color: orangered !important;
+                
+            }
+            h4{
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover{color: orangered;}
+                }
+            }
+            p{
+                font-size: 18px;
+                color: grey;
+                margin-top: 20px;
+            }
+            i{
+                font-size: 30px;
+                color: grey;
+                margin-top: 30px;
+                
+            }
+        }
+        .box::after{
+            content: " ";
+            width: 320px;
+            height: 8px;
+            position: absolute;
+            margin-left: -172px;
+            margin-top: 130px;
+        }
+    }
+    }
+}
+
+
+
+
+@media only screen and(max-width:768px){
+    section.section_three{
+        margin-top: 600px;
+        height: 1800px;
+    }
+}

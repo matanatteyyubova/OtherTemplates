@@ -1,0 +1,98 @@
+section.section_ten{
+
+    div.container-fluid{
+        height: 700px;
+   
+        margin-left: 10px ;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #f5f5f5;
+        div.row{
+            div.col{
+                height: 650px;
+            
+            }
+            .col:nth-child(1){
+              img{
+                  width: 550px;
+                  height: 550px;
+              }
+            }
+            div.col:nth-child(2){
+                
+                padding: 50px;
+                background-image: url(https://webtend.net/demo/html/finsa/assets/img/lines/07.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                p.p1{ font-size: 22px; font-weight: bold; color: orangered; margin-left: 40px;}
+                    p.p1::before{
+                        content: " ";
+                       position: absolute;
+                       margin-top: 15px;
+                       margin-left: -35px;
+                        width: 30px;
+                        height: 2px;
+                        background-color: orangered;
+                    }
+                    h1{
+                        font-size: 50px;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                    }
+                    div#owl-third{
+                        margin-top: 60px;
+                        p{
+                            font-size: 20px;
+                        }
+                        .item{
+                          
+                            div.person{
+                                display: flex;
+                                margin-top: 30px;
+                                div.foto{
+                                    width: 60px;
+                                    height: 60px;
+                                    margin-right: 20px;
+                                    border-radius: 50%;
+                                    background-image: url(https://webtend.net/demo/html/finsa/assets/img/testimonial/author.png);
+                                    background-repeat: no-repeat;
+                                }
+                                div.text{
+                                    p{color: orangered;}
+                                }
+                            }
+                        }
+                    }
+                   
+                    .fa-long-arrow-left{
+                        font-size: 50px;
+                        color: orangered;
+                        margin-top: -20px;
+                        border: none !important;
+                        background-color: none !important;
+                        &:hover{
+                            outline: none;
+                            border: none !important;
+                            background-color: white !important;
+                        }
+                    }
+                    .fa-long-arrow-right{
+                        font-size: 50px;
+                        color: grey;
+                        
+                        position: absolute;
+                    }
+                }
+
+
+
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    section.section_ten{
+        margin-top: 600px;
+    }  
+}

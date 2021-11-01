@@ -1,0 +1,1958 @@
+header nav.navbar {
+  background-color: #f3f3fa;
+}
+
+header nav.navbar ul.navbar-nav li {
+  margin-left: 25px;
+}
+
+header nav.navbar ul.navbar-nav li a.nav-link {
+  color: black;
+}
+
+header img.logo {
+  margin-left: 100px;
+}
+
+header form ul.navbar-nav li {
+  margin-left: 35px;
+}
+
+ul.dropdown-menu {
+  margin-left: -100px;
+}
+
+ul.dropdown-menu li {
+  list-style: none;
+  margin-top: 12px;
+}
+
+ul.dropdown-menu li img {
+  width: 220px;
+  height: 280px;
+  margin-left: -60px;
+  border-radius: 30px;
+}
+
+ul.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+li.has-dropdown {
+  width: 200px;
+  height: 300px;
+}
+
+li.has-dropdown a.drop {
+  font-weight: bold;
+}
+
+li.has-dropdown ul {
+  margin-left: -60px;
+}
+
+@media only screen and (max-width: 700px) {
+  header nav.navbar {
+    background-color: #f3f3fa;
+  }
+  header img.logo {
+    margin-left: auto;
+  }
+  header form ul.navbar-nav {
+    display: none;
+  }
+}
+
+section.section1 {
+  z-index: 1;
+}
+
+section.section1 .container-fluid {
+  z-index: 1;
+  height: 800px;
+}
+
+section.section1 .container-fluid div.carousel-item img {
+  z-index: 1;
+  width: 100%;
+  height: 800px;
+}
+
+section.section1 .container-fluid div.carousel-item div.text {
+  margin-top: -530px;
+  width: 550px;
+  height: 300px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+section.section1 .container-fluid div.carousel-item div.text h2 {
+  margin-bottom: 30px;
+  font-size: 42px;
+}
+
+section.section1 .container-fluid div.carousel-item div.text div.btn {
+  width: 180px;
+  height: 50px;
+  border: 2px solid black;
+  margin-top: 40px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  border-radius: 0%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+section.section1 .container-fluid div.carousel-item div.text div.btn:hover {
+  background-color: #dd9742;
+  border: 1px solid #dd9742;
+}
+
+section.section1 .container-fluid div.carousel-item div.text div.btn:hover a {
+  color: white;
+}
+
+section.section1 .container-fluid div.carousel-item div.text div.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+section.section1 .container-fluid div.carousel-indicators button {
+  background-color: gray;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: -150px;
+}
+
+section.section1 .container-fluid div.carousel-indicators button:hover {
+  background-color: #704f26;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section1 {
+    width: 650px;
+    height: 600px;
+  }
+  section.section1 div.container-fluid {
+    margin-left: 0%;
+    width: 600px;
+    height: 600px;
+  }
+  section.section1 div.container-fluid div.carousel-item {
+    width: 600px;
+    height: 600px;
+  }
+  section.section1 div.container-fluid div.carousel-item img {
+    width: 100%;
+    height: 600px;
+  }
+  section.section1 div.container-fluid div.carousel-item div.text {
+    margin-top: -530px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 30px;
+  }
+  section.section1 div.container-fluid div.carousel-item div.text h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  section.section1 div.container-fluid div.carousel-item div.text p {
+    font-size: 16px;
+  }
+}
+
+div.barnerarea {
+  position: absolute;
+  width: 85%;
+  height: 250px;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: -120px;
+  z-index: 2;
+}
+
+div.barnerarea div.container div.row {
+  margin-top: 20px;
+}
+
+div.barnerarea div.container div.row div.col {
+  height: 220px;
+  width: 320px;
+}
+
+div.barnerarea div.container div.row div.col div.colone {
+  width: 350px;
+  height: 210px;
+  border: 1px solid white;
+  background-image: url(../image/banner-sm-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.colone div.banner__content {
+  margin-top: 60px;
+  margin-left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.colone div.banner__content h5 a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.colone div.banner__content h5 a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.colone div.banner__content a {
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.colone div.banner__content a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.colone:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+div.barnerarea div.container div.row div.col div.colone:hover div.banner__content {
+  margin-top: 90px;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo {
+  width: 350px;
+  height: 210px;
+  border: 1px solid white;
+  background-image: url(../image/banner-sm-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo div.banner__content {
+  margin-top: 60px;
+  margin-left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo div.banner__content h5 a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo div.banner__content h5 a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo div.banner__content a {
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo div.banner__content a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+div.barnerarea div.container div.row div.col div.coltwo:hover div.banner__content {
+  margin-top: 90px;
+}
+
+div.barnerarea div.container div.row div.col div.colthree {
+  width: 350px;
+  height: 210px;
+  border: 1px solid  white;
+  background-image: url(../image/banner-sm-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.colthree div.banner__content {
+  margin-top: 60px;
+  margin-left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.barnerarea div.container div.row div.col div.colthree div.banner__content h5 a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.colthree div.banner__content h5 a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.colthree div.banner__content a {
+  color: black;
+  text-decoration: none;
+}
+
+div.barnerarea div.container div.row div.col div.colthree div.banner__content a:hover {
+  color: #e9ad63;
+}
+
+div.barnerarea div.container div.row div.col div.colthree:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+div.barnerarea div.container div.row div.col div.colthree:hover div.banner__content {
+  margin-top: 90px;
+}
+
+@media only screen and (max-width: 700px) {
+  div.barnerarea {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: -120px;
+    z-index: 2;
+  }
+  div.barnerarea div.container div.row {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  div.barnerarea div.container div.row div.col {
+    height: 300px;
+    width: 400px;
+  }
+  div.barnerarea div.container div.row div.col div.colone {
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    margin-left: -40px;
+    background-image: url(../image/banner-sm-1.jpg);
+    background-size: 100%;
+    background-position: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.colone div.banner__content {
+    margin-top: 110px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.colone div.banner__content h5 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.colone div.banner__content h5 a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.colone div.banner__content a {
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.colone div.banner__content a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.colone:hover {
+    background-size: 110%;
+    background-position: center;
+  }
+  div.barnerarea div.container div.row div.col div.colone:hover div.banner__content {
+    margin-top: 90px;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    margin-left: -40px;
+    margin-top: 20px;
+    background-image: url(../image/banner-sm-2.jpg);
+    background-size: 100%;
+    background-position: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo div.banner__content {
+    margin-top: 110px;
+    margin-left: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo div.banner__content h5 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo div.banner__content h5 a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo div.banner__content a {
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo div.banner__content a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo:hover {
+    background-size: 110%;
+    background-position: center;
+  }
+  div.barnerarea div.container div.row div.col div.coltwo:hover div.banner__content {
+    margin-top: 90px;
+  }
+  div.barnerarea div.container div.row div.col div.colthree {
+    width: 500px;
+    height: 300px;
+    margin-left: -40px;
+    margin-top: 40px;
+    border: 1px solid  white;
+    background-image: url(../image/banner-sm-3.jpg);
+    background-size: 100%;
+    background-position: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.colthree div.banner__content {
+    margin-top: 110px;
+    margin-left: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  div.barnerarea div.container div.row div.col div.colthree div.banner__content h5 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.colthree div.banner__content h5 a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.colthree div.banner__content a {
+    color: black;
+    text-decoration: none;
+  }
+  div.barnerarea div.container div.row div.col div.colthree div.banner__content a:hover {
+    color: #e9ad63;
+  }
+  div.barnerarea div.container div.row div.col div.colthree:hover {
+    background-size: 110%;
+    background-position: center;
+  }
+  div.barnerarea div.container div.row div.col div.colthree:hover div.banner__content {
+    margin-top: 90px;
+  }
+}
+
+section.section2 {
+  margin-top: 200px;
+}
+
+section.section2 div.producttext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin-left: 97px;
+}
+
+section.section2 div.producttext hr {
+  width: 390px;
+}
+
+section.section2 h2 {
+  margin-top: -5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 3px;
+}
+
+section.section2 p {
+  margin-left: 430px;
+  margin-top: 20px;
+}
+
+section.section2 div.content {
+  width: 85%;
+  height: 820px;
+  margin-left: 100px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.section2 div.content div.product {
+  width: 250px;
+  height: 410px;
+  border: 1px solid white;
+}
+
+section.section2 div.content div.product div.product_content1 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content1:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-10.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content1:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content2 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content2:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-9.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content2:hover div.icon {
+  display: block;
+  position: fixed;
+}
+
+section.section2 div.content div.product div.product_content2 div.sale {
+  width: 30px;
+  height: 80px;
+  border: 1px solid #eb9e41;
+  margin-left: 200px;
+  background-color: #eb9e41;
+}
+
+section.section2 div.content div.product div.product_content2 div.sale div.saletext {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 30px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  margin-top: 10px;
+  margin-left: 3px;
+  color: white;
+}
+
+section.section2 div.content div.product div.product_content2 div.sale div.minisale {
+  width: 30px;
+  height: 40px;
+  color: white;
+  margin-left: -1px;
+  background-color: black;
+  margin-top: 20px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+section.section2 div.content div.product div.product_content3 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content3:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-8.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content3:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content4 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-4.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content4:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-12.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content4:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content5 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-5.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content5:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-11.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content5:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content6 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-6.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content6:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-7.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content6:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content7 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-7.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content7:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-1.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content7:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_content8 {
+  width: 250px;
+  height: 320px;
+  border: 1px solid white;
+  background-image: url(../image/product-8.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.content div.product div.product_content8:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-3.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section2 div.content div.product div.product_content8:hover div.icon {
+  display: block;
+}
+
+section.section2 div.content div.product div.product_text {
+  width: 200px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+section.section2 div.content div.product div.product_text a {
+  text-decoration: none;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+section.section2 div.content div.product div.product_text a:hover {
+  color: #da9137;
+}
+
+section.section2 div.content div.product div.icon {
+  width: 50px;
+  height: 120px;
+  border: 1px solid  white;
+  margin-top: 180px;
+  margin-left: 180px;
+  border-radius: 5px;
+  background-color: white;
+  display: none;
+}
+
+section.section2 div.content div.product div.icon div.icon1 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+section.section2 div.content div.product div.icon div.icon1 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section2 div.content div.product div.icon div.icon2 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+section.section2 div.content div.product div.icon div.icon2 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section2 div.content div.product div.icon div.icon3 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+section.section2 div.content div.product div.icon div.icon3 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section2 div.content div.product div.icon hr {
+  margin-top: -2px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+section.section2 div.btn {
+  width: 240px;
+  height: 50px;
+  border: 2px solid #afadad;
+  border-radius: 0%;
+  margin-top: 40px;
+  margin-left: 550px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 13px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+section.section2 div.btn:hover {
+  background-color: #d37924;
+  border: none;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section2 {
+    margin-top: 900px;
+  }
+  section.section2 div.producttext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1200px;
+    margin-left: 20px;
+  }
+  section.section2 div.producttext hr {
+    width: 100px;
+  }
+  section.section2 div.producttext h2 {
+    font-size: 24px;
+    margin-top: -5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 3px;
+  }
+  section.section2 p {
+    margin-left: 40px;
+  }
+  section.section2 div.content {
+    margin-left: 40px;
+  }
+  section.section2 div.btn {
+    margin-top: 880px;
+    margin-left: 180px;
+  }
+}
+
+section.section3 {
+  width: 100%;
+  height: 300px;
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section3 div.leftproduct {
+  width: 655px;
+  height: 300px;
+  border: 1px solid  white;
+  background-image: url(../image/banner-big-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section.section3 div.leftproduct:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+section.section3 div.leftproduct div.leftproducttext {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+section.section3 div.leftproduct div.leftproducttext p {
+  color: #b96703;
+}
+
+section.section3 div.leftproduct div.leftproducttext h5 {
+  margin-top: -15px;
+}
+
+section.section3 div.leftproduct div.leftproducttext h5:hover {
+  color: #b96703;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 12px;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn:hover {
+  background-color: #b96703;
+  border: 1px solid #b96703;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn:hover p {
+  color: white;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn:hover p span {
+  color: white;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn p {
+  color: black;
+  font-size: 12px;
+}
+
+section.section3 div.leftproduct div.leftproducttext div.product_btn p span {
+  color: #b96703;
+}
+
+section.section3 div.rightproduct {
+  width: 655px;
+  height: 300px;
+  border: 1px solid white;
+  background-image: url(../image/banner-big-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section.section3 div.rightproduct:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+section.section3 div.rightproduct div.rightproducttext {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+section.section3 div.rightproduct div.rightproducttext p {
+  color: #b96703;
+}
+
+section.section3 div.rightproduct div.rightproducttext h5 {
+  margin-top: -15px;
+}
+
+section.section3 div.rightproduct div.rightproducttext h5:hover {
+  color: #b96703;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn:hover {
+  background-color: #b96703;
+  border: 1px solid #b96703;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn:hover p {
+  color: white;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn:hover p span {
+  color: white;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn p {
+  color: black;
+  font-size: 12px;
+}
+
+section.section3 div.rightproduct div.rightproducttext div.product_btn p span {
+  color: #b96703;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section3 {
+    margin-top: 160px;
+  }
+}
+
+section.section4 {
+  width: 85%;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+section.section4 div.producttext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+}
+
+section.section4 div.producttext hr {
+  width: 440px;
+}
+
+section.section4 h2 {
+  margin-top: -8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+section.section4 p {
+  margin-left: 330px;
+  margin-top: 20px;
+}
+
+section.section4 div.main {
+  width: 100%;
+  height: 500px;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section4 div.main div.product0 {
+  width: 210px;
+  height: 340px;
+}
+
+section.section4 div.main div.product0 div.product_content01 {
+  width: 210px;
+  height: 270px;
+  border: 1px solid white;
+  background-image: url(../image/product-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section4 div.main div.product0 div.product_content01:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-10.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section4 div.main div.product0 div.product_content01:hover div.icon {
+  display: block;
+}
+
+section.section4 div.main div.product0 div.product_content02 {
+  width: 210px;
+  height: 270px;
+  border: 1px solid white;
+  background-image: url(../image/product-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section4 div.main div.product0 div.product_content02:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-9.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section4 div.main div.product0 div.product_content02:hover div.icon {
+  display: block;
+}
+
+section.section4 div.main div.product0 div.product_content03 {
+  width: 210px;
+  height: 270px;
+  border: 1px solid  white;
+  background-image: url(../image/product-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section4 div.main div.product0 div.product_content03:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-8.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section4 div.main div.product0 div.product_content03:hover div.icon {
+  display: block;
+}
+
+section.section4 div.main div.product0 div.product_content04 {
+  width: 210px;
+  height: 270px;
+  border: 1px solid white;
+  background-image: url(../image/product-4.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section4 div.main div.product0 div.product_content04:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-12.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section4 div.main div.product0 div.product_content04:hover div.icon {
+  display: block;
+}
+
+section.section4 div.main div.product0 div.product_content05 {
+  width: 210px;
+  height: 270px;
+  border: 1px solid  white;
+  background-image: url(../image/product-5.jpg);
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section4 div.main div.product0 div.product_content05:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(../image/product-11.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+section.section4 div.main div.product0 div.product_content05:hover div.icon {
+  display: block;
+}
+
+section.section4 div.main div.product0 div.product_text {
+  width: 200px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+section.section4 div.main div.product0 div.product_text a {
+  text-decoration: none;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+section.section4 div.main div.product0 div.product_text a:hover {
+  color: #da9137;
+}
+
+section.section4 div.main div.icon {
+  width: 50px;
+  height: 120px;
+  border: 1px solid  white;
+  margin-top: 130px;
+  margin-left: 140px;
+  border-radius: 5px;
+  background-color: white;
+  display: none;
+}
+
+section.section4 div.main div.icon div.icon1 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+section.section4 div.main div.icon div.icon1 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section4 div.main div.icon div.icon2 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+section.section4 div.main div.icon div.icon2 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section4 div.main div.icon div.icon3 {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+section.section4 div.main div.icon div.icon3 a {
+  color: grey;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+
+section.section4 div.main div.icon hr {
+  margin-top: -2px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section4 {
+    margin-top: 500px;
+  }
+  section.section4 div.producttext {
+    margin-left: -40px;
+  }
+  section.section4 div.producttext hr {
+    width: 100px;
+  }
+  section.section4 div.producttext h2 {
+    margin-top: -8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 3px;
+    font-size: 40px;
+  }
+  section.section4 p {
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  section.section4 div.main {
+    margin-left: -40px;
+  }
+}
+
+section.section5 {
+  width: 90%;
+  height: 200px;
+  margin-top: 120px;
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.section5 div.box1 {
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: url(../image/client-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.section5 div.box2 {
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: url(../image/client-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.section5 div.box3 {
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: url(../image/client-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.section5 div.box4 {
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: url(../image/client-4.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.section5 div.box5 {
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: url(../image/client-5.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section5 {
+    margin-top: 700px;
+  }
+}
+
+section.section6 div.producttext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin-left: 110px;
+  margin-top: 150px;
+}
+
+section.section6 div.producttext hr {
+  width: 390px;
+}
+
+section.section6 div.producttext h2 {
+  margin-top: -5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 3px;
+}
+
+section.section6 p {
+  margin-left: 430px;
+  margin-top: 20px;
+}
+
+section.section6 div.container {
+  width: 90%;
+  height: 530px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0%;
+}
+
+section.section6 div.container div.boxone {
+  width: 360px;
+  height: 550px;
+  border: 1px solid white;
+}
+
+section.section6 div.container div.boxone div.photo {
+  width: 360px;
+  height: 230px;
+  background-image: url(../image/blog-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone div.photo:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+section.section6 div.container div.boxone h4 {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+section.section6 div.container div.boxone h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+section.section6 div.container div.boxone h4 a:hover {
+  color: #d1790e;
+}
+
+section.section6 div.container div.boxone span {
+  color: grey;
+}
+
+section.section6 div.container div.boxone a.span {
+  color: #d1790e;
+  text-decoration: none;
+}
+
+section.section6 div.container div.boxone p.text {
+  color: grey;
+  margin-left: 0%;
+  margin-top: 12px;
+}
+
+section.section6 div.container div.boxone div.btn {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #c9c5c5;
+  border-radius: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone div.btn:hover {
+  border: none;
+  background-color: #834a05;
+}
+
+section.section6 div.container div.boxone div.btn:hover a {
+  color: white;
+}
+
+section.section6 div.container div.boxone div.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+section.section6 div.container div.boxone1 {
+  width: 360px;
+  height: 550px;
+  border: 1px solid  white;
+}
+
+section.section6 div.container div.boxone1 div.photo {
+  width: 360px;
+  height: 230px;
+  background-image: url(../image/blog-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone1 div.photo:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+section.section6 div.container div.boxone1 h4 {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+section.section6 div.container div.boxone1 h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+section.section6 div.container div.boxone1 h4 a:hover {
+  color: #d1790e;
+}
+
+section.section6 div.container div.boxone1 span {
+  color: grey;
+}
+
+section.section6 div.container div.boxone1 a.span {
+  color: #d1790e;
+  text-decoration: none;
+}
+
+section.section6 div.container div.boxone1 p.text {
+  color: grey;
+  margin-left: 0%;
+  margin-top: 12px;
+}
+
+section.section6 div.container div.boxone1 div.btn {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #c9c5c5;
+  border-radius: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone1 div.btn:hover {
+  border: none;
+  background-color: #834a05;
+}
+
+section.section6 div.container div.boxone1 div.btn:hover a {
+  color: white;
+}
+
+section.section6 div.container div.boxone1 div.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+section.section6 div.container div.boxone2 {
+  width: 360px;
+  height: 550px;
+  border: 1px solid white;
+}
+
+section.section6 div.container div.boxone2 div.photo {
+  width: 360px;
+  height: 230px;
+  background-image: url(../image/blog-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone2 div.photo:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+section.section6 div.container div.boxone2 h4 {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+section.section6 div.container div.boxone2 h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+section.section6 div.container div.boxone2 h4 a:hover {
+  color: #d1790e;
+}
+
+section.section6 div.container div.boxone2 span {
+  color: grey;
+}
+
+section.section6 div.container div.boxone2 a.span {
+  color: #d1790e;
+  text-decoration: none;
+}
+
+section.section6 div.container div.boxone2 p.text {
+  color: grey;
+  margin-left: 0%;
+  margin-top: 12px;
+}
+
+section.section6 div.container div.boxone2 div.btn {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #c9c5c5;
+  border-radius: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section6 div.container div.boxone2 div.btn:hover {
+  border: none;
+  background-color: #834a05;
+}
+
+section.section6 div.container div.boxone2 div.btn:hover a {
+  color: white;
+}
+
+section.section6 div.container div.boxone2 div.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+section.section6 hr.endline {
+  width: 85%;
+  margin-left: 105px;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section6 {
+    margin-top: 550px;
+  }
+  section.section6 div.producttext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1200px;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  section.section6 div.producttext hr {
+    width: 100px;
+  }
+  section.section6 div.producttext h2 {
+    margin-top: -5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 3px;
+  }
+  section.section6 p {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  section.section6 div.container {
+    margin-left: 120px;
+  }
+  section.section6 hr.endline {
+    margin-top: 1200px;
+    width: 400px;
+  }
+}
+
+section.section7 div.main_content {
+  width: 50%;
+  height: 400px;
+  border: 1px solid white;
+  margin-left: 330px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 80px;
+}
+
+section.section7 div.main_content h2 {
+  margin-left: 200px;
+  font-size: 36px;
+}
+
+section.section7 div.main_content p {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+section.section7 div.main_content p span.txt {
+  margin-left: 180px;
+}
+
+section.section7 div.main_content form input {
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+section.section7 div.main_content form button.subscribe {
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  background-color: white;
+  color: black;
+  margin-left: 230px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+  section.section7 {
+    margin-top: -40px;
+  }
+  section.section7 div.main_content {
+    margin-left: 60px;
+    width: 500px;
+  }
+  section.section7 div.main_content h2 {
+    margin-left: 160px;
+    font-size: 24px;
+  }
+  section.section7 div.main_content p {
+    font-size: 14px;
+    margin-left: -34px;
+    margin-top: 20px;
+  }
+  section.section7 div.main_content p span.txt {
+    margin-left: 180px;
+  }
+  section.section7 div.main_content form input {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+  }
+  section.section7 div.main_content form button.subscribe {
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+footer.end {
+  width: 100%;
+  height: 580px;
+  margin-top: 80px;
+  background-color: #0f0f0f;
+}
+
+footer.end div.div1 {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 100px;
+}
+
+footer.end div.div1 div.minibox {
+  width: 500px;
+  height: 300px;
+  margin-left: 120px;
+  margin-right: 30px;
+}
+
+footer.end div.div1 div.minibox div.endlogo {
+  width: 140px;
+  height: 40px;
+  background-image: url(../image/logo-2.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer.end div.div1 div.minibox p.foot1 {
+  color: #ccc8c8;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+footer.end div.div1 div.minibox p.foot2 {
+  color: #ccc8c8;
+  font-size: 15px;
+}
+
+footer.end div.div1 div.minibox p.foot2 i {
+  margin-right: 10px;
+}
+
+footer.end div.div1 div.minibox1 {
+  width: 200px;
+  height: 300px;
+  margin-right: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0%;
+}
+
+footer.end div.div1 div.minibox1 p {
+  color: #f3efef;
+  font-size: 20px;
+}
+
+footer.end div.div1 div.minibox1 ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0%;
+  padding-top: 5px;
+}
+
+footer.end div.div1 div.minibox1 ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer.end div.div1 div.minibox1 ul li a {
+  text-decoration: none;
+  color: #ccc8c8;
+}
+
+footer.end div.div1 div.minibox1 ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer.end div.div1 div.minibox2 {
+  width: 200px;
+  height: 300px;
+}
+
+footer.end div.div1 div.minibox2 p {
+  color: #f3efef;
+  font-size: 20px;
+}
+
+footer.end div.div1 div.minibox2 ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0%;
+  padding-top: 5px;
+}
+
+footer.end div.div1 div.minibox2 ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer.end div.div1 div.minibox2 ul li a {
+  text-decoration: none;
+  color: #ccc8c8;
+}
+
+footer.end div.div1 div.minibox2 ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer.end div.div2 {
+  width: 100%;
+  height: 130px;
+  border-top: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer.end div.div2 div.leftdiv2 {
+  width: 600px;
+  height: 130px;
+}
+
+footer.end div.div2 div.leftdiv2 p {
+  color: #c9c7c7;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+footer.end div.div2 div.leftdiv2 p span {
+  color: #d48b31;
+  margin-left: 5px;
+}
+
+footer.end div.div2 div.rightdiv2 {
+  width: 400px;
+  height: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 50px;
+}
+
+footer.end div.div2 div.rightdiv2 a:hover i {
+  color: #d48b31;
+}
+
+footer.end div.div2 div.rightdiv2 a i {
+  color: #c9c7c7;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  footer.end {
+    height: 1150px;
+    margin-top: 100px;
+  }
+  footer.end div.div1 {
+    width: 500px;
+    height: 450px;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 100px;
+  }
+  footer.end div.div1 div.minibox {
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  footer.end div.minibox1 {
+    margin-left: 40px;
+  }
+  footer.end div.minibox2 {
+    margin-left: 40px;
+  }
+  div.div2 {
+    margin-top: 500px;
+    display: block;
+  }
+  div.div2 div.leftdiv2 {
+    margin-left: -60px;
+  }
+  div.div2 div.rightdiv2 {
+    margin-top: -60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+div.calculator {
+  background-color: white;
+  padding: 15px;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (68)[4];
+      grid-template-columns: repeat(4, 68);
+}
+
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+  background-color: white;
+  -webkit-box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 30px;
+  color: #464646;
+  font-size: 60px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  -webkit-box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.equal {
+  background-color: orange;
+  color: white;
+  font-size: 30px;
+}
+
+.clear {
+  background-color: orange;
+  color: white;
+  -webkit-box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+          box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+}
+
+.del {
+  background-color: orange;
+  color: white;
+  -webkit-box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+          box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+}
+
+.percent {
+  background-color: orange;
+  color: white;
+  -webkit-box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+          box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+}
+
+.divmod {
+  background-color: orange;
+  color: white;
+  -webkit-box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+          box-shadow: -5px -5px 22px #fff, 5px 5px 22px rgba(0, 0, 0, 0.46);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,129 @@
+.navbar-brand {
+    margin-left: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 150px;
+    margin-right: 100px;
+    background-color: #44d2a8;
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+
+nav.navbar {
+    ul.navbar-nav {
+        li {
+            margin-left: 35px;
+
+            a.nav-link {
+                color: black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:760px) {
+
+
+    nav.navbar {
+
+        ul.navbar-nav {
+
+            li {
+                margin-left: 0px;
+
+                //    border-bottom: 1px solid grey;
+                a.nav-link {
+                    color: black;
+                    margin-left: 0px;
+                    border-bottom: 1px solid rgb(206, 203, 203);
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .btn {
+        width: 100%;
+        margin-left: 100px;
+        background-color: #44d2a8;
+        border: none;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+// ---------------------------------------------------------------------------------
+div.container{
+    width: 82%;
+    border: 1px solid white;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div.content_text{
+    width: 550px;
+    height: 450px;
+    // border: 1px solid red;
+    box-sizing: border-box;
+    padding-top: 60px;
+    h1{font-size: 60px;font-weight: bold;}
+    p{margin-top: 30px; font-size: 20px;margin-bottom: 40px;}
+    div.addbutton{
+        display: flex;
+        align-items: center;
+      div.content_link{
+          &:hover{a{color: black;} i{color: black;}}
+        a{
+            text-decoration: none;
+            color:#44d2a8 ;
+            font-size: 20px;  
+        }
+        i{
+            color:#44d2a8 ;
+            font-size: 20px;
+        }
+      }
+    }
+    }
+    div.photo{
+        width: 500px;
+        height: 400px;
+        margin-top: 40px;
+        // border: 1px solid red;
+        background-image: url(../image/maindemo-banner2.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation-duration: 4s;
+    }
+}
+
+@media only screen and (max-width:760px){
+    div.container{
+        display: block;
+        height: 900px;
+        div.addbutton{
+         .btn{
+             margin-left: 0px;
+         }
+        }
+        div.photo{
+            margin-top: 0px;
+        }
+    }
+}

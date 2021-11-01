@@ -1,0 +1,108 @@
+section.section3{
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // border: 1px solid red;
+    div.leftproduct{
+        width: 655px;
+        height: 300px;
+        border: 1px solid  white;
+        background-image: url(../image/banner-big-1.jpg);
+        background-size: 100%;
+        background-position: center;
+        transition: 0.5s;
+        &:hover{
+            background-size: 110%;
+            background-position: center;  
+        }
+        div.leftproducttext{
+            margin-top: 100px;
+            margin-left: 90px;
+            p{
+                color: #b96703;
+            }
+            h5{
+                margin-top: -15px;
+                &:hover{color:#b96703 ;}
+
+            }
+            div.product_btn{
+                width: 200px;
+                height: 50px;
+                border: 2px solid black;
+                box-sizing: border-box;
+                padding-top: 12px;
+                padding-left: 50px;
+                margin-top: 30px;
+               
+                &:hover{
+                    background-color: #b96703;
+                    border: 1px solid #b96703;
+                    p{color: white;
+                     span{color: white;}
+                    }
+                }
+                p{color: black; font-size: 12px;
+                    span{color:#b96703 ;}
+                }
+                
+            }
+
+        }
+    }
+    div.rightproduct{
+        width: 655px;
+        height: 300px;
+        border: 1px solid white;
+        background-image: url(../image/banner-big-2.jpg);
+        background-size: 100%;
+        background-position: center;
+        transition: 0.5s;
+        &:hover{
+            background-size: 110%;
+            background-position: center;  
+        }
+        div.rightproducttext{
+            margin-top: 100px;
+            margin-left: 90px;
+            p{
+                color: #b96703;
+            }
+            h5{
+                margin-top: -15px;
+                &:hover{color:#b96703 ;}
+            }
+            div.product_btn{
+                width: 200px;
+                height: 50px;
+                border: 2px solid black;
+                box-sizing: border-box;
+                padding-top: 10px;
+                padding-left: 50px;
+                margin-top: 30px;
+                
+                &:hover{
+                    background-color: #b96703;
+                    border: 1px solid #b96703;
+                    p{color: white;
+                    span{color: white;}
+                }
+                }
+                p{color: black; font-size: 12px;
+                    span{color:#b96703 ;}
+                }
+            }
+
+        }
+        
+    }
+}
+@media only screen and (max-width:700px){
+    section.section3{
+        margin-top:160px;
+    }
+    
+}

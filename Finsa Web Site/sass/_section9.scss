@@ -1,0 +1,415 @@
+section.section_nine{
+    margin-top: 150px;
+    width: 100%;
+    
+    height: 700px;
+    
+    div.container{
+        height: 620px;
+        
+        div.row{
+            div.col{
+              
+                height: 620px; 
+        
+                    
+                    padding: 20px;
+                    p.p1{ font-size: 22px; font-weight: bold; color: orangered; margin-left: 40px;}
+                    p.p1::before{
+                        content: " ";
+                       position: absolute;
+                       margin-top: 15px;
+                       margin-left: -35px;
+                        width: 30px;
+                        height: 2px;
+                        background-color: orangered;
+                    }
+                    h1{
+                        font-size: 50px;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                    }
+                    p.p0{color: white;}
+                    p{
+                        font-size: 18px;
+                        margin-top: 15px;
+                        color: grey;
+                    }
+                button{
+                width: 200px;
+                height: 70px;
+                border: none;
+                border-radius: 40px;
+                
+                background-color:orangered;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                z-index: 1;
+                position: relative;
+               
+            }
+            .main-btn::after{
+                z-index: -1;
+                content: '';
+                width: 80px;
+                height: 55px;
+                background-color: #14212b;
+                position: absolute;
+                top: 10%;
+                right: 10%;
+                border-radius: 40px;
+                transition: 1s;
+            }
+           
+            button:hover::after{
+                width: 204px;
+                height: 74px;
+                margin-top: -8px;
+                margin-right: -22px;
+              
+            } 
+                
+            }
+            .col:nth-child(2){
+                div.content{
+                    width: 520px;
+                    height: 600px;
+                    border: 1px solid white;
+                    text-align: center;
+                    padding-top: 100px;
+                    box-sizing: border-box;
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                   .circle-container{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #f5f5f5;
+                    
+                      div.item-layer-1{
+                           width: 150px;
+                           height: 150px;
+                           border-radius: 50%;
+                          position: absolute;
+                       
+                        }  
+                    
+                        div.item-layer-2{
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 50%;
+                           position: absolute;
+                        
+                         }
+
+                    
+                      
+                        div.fill{
+                           width: 150px;
+                           height: 150px;
+                           border-radius: 50%;
+                           position: absolute;
+                        }  
+                    
+
+                    
+                        div.item-layer-1{
+                            clip:rect(0px,150px,150px,64px);
+                        }
+                        div.item-layer-2{
+                            clip:rect(0px,150px,150px,64px);
+                        }
+                
+
+                    
+                        
+                           div.fill{
+                            clip:rect(0px,64px,150px,0px);
+                            background-color: orangered;
+                           }
+                          .item-layer-1{
+                              transform: rotate(50deg);
+                              animation: fill ease-in-out 3s;
+                          }
+                          .fill{
+                            transform: rotate(50deg); 
+                            animation: fill ease-in-out 3s; 
+                          }
+                
+                   }
+                   img{margin-top: 30px;}
+                     @keyframes  fill {
+                         0%{
+                             transform: rotate(0deg);
+                         }
+                         100%{
+                             transform: rotate(50deg);
+                         }
+                     }
+                        
+                    .inside-content{
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        background-color: white;
+                        position: absolute;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    
+                    }
+
+
+
+                    // two-------------------------------
+                    .circle-container{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        background-color: #f5f5f5;
+                        
+                          div.item-layer-3{
+                               width: 150px;
+                               height: 150px;
+                               border-radius: 50%;
+                              position: absolute;
+                           
+                            }  
+                        
+                            div.item-layer-4{
+                                width: 150px;
+                                height: 150px;
+                                border-radius: 50%;
+                               position: absolute;
+                            
+                             }
+    
+                        
+                          
+                            div.fill1{
+                               width: 150px;
+                               height: 150px;
+                               border-radius: 50%;
+                               position: absolute;
+                            }  
+                        
+    
+                        
+                            div.item-layer-3{
+                                clip:rect(0px,150px,150px,64px);
+                            }
+                            div.item-layer-4{
+                                clip:rect(0px,150px,150px,64px);
+                            }
+                    
+    
+                        
+                            
+                               div.fill1{
+                                clip:rect(0px,64px,150px,0px);
+                                background-color: orangered;
+                               }
+                              .item-layer-3{
+                                  transform: rotate(80deg);
+                                  animation: fill1 ease-in-out 3s;
+                              }
+                              .fill1{
+                                transform: rotate(80deg); 
+                                animation: fill1 ease-in-out 3s; 
+                              }
+                    
+                       }
+
+                       @keyframes  fill1 {
+                        0%{
+                            transform: rotate(0deg);
+                        }
+                        100%{
+                            transform: rotate(80deg);
+                        }
+                    }
+
+                    .inside-content1{
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        background-color: white;
+                        position: absolute;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    
+                    }
+            //    three------------------------------------------
+            .circle-container{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: #f5f5f5;
+                
+                  div.item-layer-5{
+                       width: 150px;
+                       height: 150px;
+                       border-radius: 50%;
+                      position: absolute;
+                   
+                    }  
+                
+                    div.item-layer-6{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                       position: absolute;
+                    
+                     }
+
+                
+                  
+                    div.fill2{
+                       width: 150px;
+                       height: 150px;
+                       border-radius: 50%;
+                       position: absolute;
+                    }  
+                
+
+                
+                    div.item-layer-5{
+                        clip:rect(0px,150px,150px,64px);
+                    }
+                    div.item-layer-6{
+                        clip:rect(0px,150px,150px,64px);
+                    }
+            
+
+                
+                    
+                       div.fill2{
+                        clip:rect(0px,64px,150px,0px);
+                        background-color: orangered;
+                       }
+                      .item-layer-5{
+                          transform: rotate(140deg);
+                          animation: fill2 ease-in-out 3s;
+                      }
+                      .fill2{
+                        transform: rotate(140deg); 
+                        animation: fill2 ease-in-out 3s; 
+                      }
+            
+               }
+
+               @keyframes  fill2 {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(140deg);
+                }
+            }
+
+
+            .inside-content2{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                background-color: white;
+                position: absolute;
+                margin-top: 15px;
+                margin-left: 15px;
+            
+            }
+
+            // four-----------------------------------------------------
+            .circle-container{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: #f5f5f5;
+                h5{
+                    position: absolute;
+                    margin-top: 160px;
+                    margin-left: -10px;
+                }
+                
+                  div.item-layer-7{
+                       width: 150px;
+                       height: 150px;
+                       border-radius: 50%;
+                      position: absolute;
+                   
+                    }  
+                
+                    div.item-layer-8{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                       position: absolute;
+                    
+                     }
+
+                
+                  
+                    div.fill3{
+                       width: 150px;
+                       height: 150px;
+                       border-radius: 50%;
+                       position: absolute;
+                    }  
+                
+
+                
+                    div.item-layer-7{
+                        clip:rect(0px,150px,150px,64px);
+                    }
+                    div.item-layer-8{
+                        clip:rect(0px,150px,150px,64px);
+                    }
+            
+
+                
+                    
+                       div.fill3{
+                        clip:rect(0px,64px,150px,0px);
+                        background-color: orangered;
+                       }
+                      .item-layer-7{
+                          transform: rotate(160deg);
+                          animation: fill3 ease-in-out 3s;
+                      }
+                      .fill3{
+                        transform: rotate(160deg); 
+                        animation: fill3 ease-in-out 3s; 
+                      }
+            
+               }
+
+               @keyframes  fill3 {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(160deg);
+                }
+            }
+
+            .inside-content3{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                background-color: white;
+                position: absolute;
+                margin-top: 15px;
+                margin-left: 15px;
+            
+            }
+                    // img{
+                    //     margin-top: -60px;
+                    // }
+                }
+               
+            }
+        }
+    }
+}

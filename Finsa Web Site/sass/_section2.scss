@@ -1,0 +1,81 @@
+section.section_two{
+    margin-top: 180px;
+    .container-fluid{
+       
+        height: 600px;
+        div.row{
+            height: 600px;
+          
+            .col{
+                position: relative;
+                 padding: 40px;
+                 p.p1{ font-size: 22px; font-weight: bold; color: orangered; margin-left: 40px;}
+                 p.p1::before{
+                     content: " ";
+                    position: absolute;
+                    margin-top: 15px;
+                    margin-left: -35px;
+                     width: 30px;
+                     height: 2px;
+                     background-color: orangered;
+                 }
+                 h1{
+                     font-size: 50px;
+                     font-weight: bold;
+                 }
+                 p{
+                     font-size: 18px;
+                     margin-top: 15px;
+                 }
+                 button{
+                    width: 200px;
+                    height: 70px;
+                    border: none;
+                    border-radius: 40px;
+                    
+                    background-color:orangered;
+                    color: white;
+                    font-weight: bold;
+                    text-align:
+                    
+                    
+                    center;
+                    z-index: 1;
+                    position: relative;
+                   
+                }
+                .main-btn::after{
+                    z-index: -1;
+                    content: '';
+                    width: 80px;
+                    height: 55px;
+                    background-color: #14212b;
+                    position: absolute;
+                    top: 10%;
+                    right: 10%;
+                    border-radius: 40px;
+                    transition: 1s;
+                }
+               
+                button:hover::after{
+                    width: 204px;
+                    height: 74px;
+                    margin-top: -8px;
+                    margin-right: -22px;
+                  
+                } 
+            }
+            
+        }
+    }
+}
+
+@media only screen and(max-width:768px){
+    section.section_two{
+       margin-top: -200px !important;
+       
+    }
+}
+
+
+

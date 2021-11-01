@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </head>
+  <body>
+  <header>
+    
+      <nav>
+        <div class="container">
+          <div>
+              <ul class="navbar">
+
+                  <li class="bt" onclick="menuToggleNav();"><a href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                      <ul class="dropdown_menu-nav">
+                          <li><a class="active" href="#">Home v1</a></li>
+                          <li><a href="#">Home v2</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="bt" onclick="menuToggleNav2();"><a href="#">About  <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+                      <ul class="dropdown_menu-nav dropdown_menu-nav-2 ">
+                          <li><a class="active" href="#">About v1</a></li>
+                          <li><a href="#">About v2</a></li>
+                      </ul>
+                  </li>
+                  <li class="bt" onclick="menuToggleNav3();"><a href="#">Blog  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                      <ul class="dropdown_menu-nav dropdown_menu-nav-3 ">
+                          <li><a class="active" href="#">Blog v1</a></li>
+                          <li><a href="#">Blog v2</a></li>
+                      </ul></li>
+                  <li class="bt" onclick="menuToggleNav4();"><a href="#">Contact  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown_menu-nav dropdown_menu-nav-4 ">
+                      <li>Contact v1</li>
+                      <li>Contact v2</li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a class="a" href="#">FAQ</a></li>
+              </ul>
+          </div>
+          <div class="navbar2">
+              <ul>
+                  <li class="one"><a href="#">Shop</a></li>
+                  <li class="two"><a href="#">Cart</a></li>
+                  <li><a href="#">Track Order</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a class="a" href="#">ECWID DEMO</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+      </nav>
+  </header>
+
+  <!-- Section start -->
+  <section class="section1">
+    <div class="container">
+      <div class="logo"><a href=""><img src="image/1.png" alt="" srcset=""></a></div>
+      <div class="search_area">
+         <div class="contact">
+          <i class="fa fa-phone" aria-hidden="true"></i> <span>(+800) 123 456 7890</span>  &nbsp; &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;<span>contact@support.com </span>
+         </div>
+         <div class="search">
+           <input type="search" placeholder="Search for products">
+           <select name="" id="">
+             <option value="All catagories"> All Catagories</option>
+             <option value=""> Laptops & Computers</option>
+             <option value=""> Cameras & Photography</option>
+             <option value=""> Accessories</option>
+             <option value=""> Smart Phones & Tablets</option>
+             <option value=""> Video Games & Console</option>
+             <option value="">Gadgets</option>
+             <option value="">Watch</option>
+             <option value="">TV & Audio</option>
+             <option value=""> Laptops</option>
+             <option value="">Google Tv </option>
+           </select>
+        
+          </div>
+          <div class="search_icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+      </div>
+      <div class="icon">
+        <div class="icon1">
+          <i class="fa fa-heart" aria-hidden="true"></i> <a href="#">Wishlist</a> <br>
+          <i class="fa fa-exchange" aria-hidden="true"></i> <a href="#">Compare</a>
+        </div>
+        <div class="icon2">
+          <div class="zero">0</div>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <span>
+            <span >Your Cart:</span><br>
+          <i class="fa fa-eur" aria-hidden="true"></i> <span class="cart">0.00</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Section end -->
+
+  <!-- Section start -->
+<section class="section2">
+  <div class="container">
+    <div class="leftPart">
+    <div class="content_list">  <p><i class="fa fa-bars" aria-hidden="true"></i>  All Departments</p></div>
+      <ul>
+        <li><a href="The Theme">The Theme</a></li>
+        <li><a href="">Value of the Day</a></li>
+        <li><a href="">Cameras & Photography</a></li>
+        <li><a href="">TV & Audio</a></li>
+        <li><a href="">Laptops & Computers</a></li>
+        <li><a href=""> Smart Phones & Tablets</a></li>
+        <li><a href=""> Video Games & Console</a></li>
+        <li><a href="">Gadgets</a></li>
+        <li><a href="">Accessories</a></li>
+        <li><a href="">Car Electronics & GPS</a></li>
+        <li><a href="">Buy this theme</a></li>
+      </ul>
+    </div>
+    <div class="rightPart">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item  d-flex ">
+            <div class="content1">
+              <p class="p1">WANT A </p>
+              <h1>$ 200</h1>
+              <P class="p1">DISCOUNT ?</P>
+              <p class="p2">ON DESKTOP PCS</p>
+              <p class="p3">Term and Condition Apply</p>
+              <button type="submit"> Shop Now</button>
+            </div>
+            <div class="photo1"></div>
+            <!-- <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/revslider/home-page-boxed-slider/desktoppc.jpg" class="d-block w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item active d-flex">
+            <div class="content1">
+              <p class="p11">SAVE ON THE AWARD WINNING</p>
+              <h1>A 600</h1>
+              <p>Save $50 on a6000,or bundle with lens,and memory card to save an additional $149.98</p>
+               <button type="submit">Shop Now</button>
+            </div>
+            <div class="photo2"></div>
+            <!-- <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/revslider/home-page-boxed-slider/digitalcamera.png" class="d-block w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item d-flex">
+            <div class="content1">
+              <p class="p22">Unlocked Andriod Phones</p>
+              <p class="p4">The Freedom to choose</p>
+              <p class="p5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Similique blanditiis error officia impedit enim ratione, porro doloremque harum, in, 
+                eveniet soluta quasi hic ut! Voluptatem maxime obcaecati porro voluptas laboriosam?</p>
+             <button type="submit" class="btn">Stop Unlucked Phones</button>
+            </div>
+            <div class="photo3"></div>
+            <!-- <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/revslider/home-page-boxed-slider/sony-xperia-sp-e1411116139343.png" class="d-block w-100" alt="..."> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Section end -->
+
+  <!-- Section start -->
+  <section class="section3">
+    <div class="left_part">
+      <div class="text">
+        <h1>New Life</h1>
+        <p>Introducing New Catagory</p>
+      </div>
+      <div class="photo"></div>
+    </div>
+    <div class="right_part">
+      <div class="text">
+        <h1>Time & Style</h1>
+        <p>Checkout New Arrivals</p>
+      </div>
+    </div>
+  </section>
+    <!-- Section end -->
+
+     <!-- Section start -->
+
+  <section class="section4">
+    <div id="button_div">
+        <button onclick="one()" class="btn active ">Featured</button>
+        <button onclick="two()" class="btn ">On Sale</button>
+        <button onclick="three()" class="btn ">Top Rated</button>
+    </div>
+<div class="container">
+ <div class="content">
+     <div class="foto1"></div>
+     <div class="foto_text">
+         <h5><a href="" class="linktxt" >Iconia W700</a></h5>
+         <p class="p1">ACER</p>
+     </div>
+     <div class="price">
+         <p class="p_left"></p>
+         <p class="p_right"> <i class="fa fa-eur" aria-hidden="true"></i> 629.99</p>
+     </div>
+     <div class="btn">
+         <button type="submit">Add to card</button>
+         <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+     </div>
+    </div>
+ <div class="content">
+     <div class="foto2"></div>
+     <div class="foto_text">
+        <h5><a href="" class="linktxt2">POV action Cam HDR- <br>AS100V</a></h5>
+        <p class="p2">SONY</p>
+    </div>
+    <div class="price">
+        <p class="p_left2"><del><i class="fa fa-eur" aria-hidden="true"></i>299.99</del></p>
+        <p class="p_right2"><i class="fa fa-eur" aria-hidden="true"></i> 269.99</p>
+    </div>
+    <div class="btn">
+        <button type="submit">Add to card</button>
+        <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+    </div>
+    </div>
+ <div class="content">
+     <div class="foto3"></div>
+     <div class="foto_text">
+        <h5><a href=""class="linktxt3">Play Station 4</a></h5>
+        <p class="p3">SONY</p>
+    </div>
+    <div class="price">
+        <p class="p_left3"></p>
+        <p class="p_right3"><i class="fa fa-eur" aria-hidden="true"></i> 399.99</p>
+    </div>
+    <div class="btn">
+        <button type="submit">Add to card</button>
+        <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+    </div>
+    </div>
+ <div class="content">
+     <div class="foto4"></div>
+     <div class="foto_text">
+        <h5><a href="" class="linktxt4">Cyber-shot Digital Camera <br>WX300</a></h5>
+        <p class="p4">SONY</p>
+    </div>
+    <div class="price">
+        <p class="p_left4"></p>
+        <p class="p_right4"><i class="fa fa-eur" aria-hidden="true"></i> 249.99-<i class="fa fa-eur" aria-hidden="true"></i> 329.99</p>
+    </div>
+    <div class="btn">
+        <button type="submit">Add to card</button>
+        <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+    </div>
+    </div>
+
+</div>
+</section>
+  <!-- Section start -->
+  <section class="section5">
+  <div class="content-head">Best Sellers</div>
+  <div class="container">
+    <div class="left-content">
+      <div class="product-box">
+        <div class="product-photo"></div>
+        <div class="product-text">
+          <h5>POV action Cam HDR-AS100V</h5>
+          <p>SONY</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"><del><i class="fa fa-gbp" aria-hidden="true"></i>299.99</del></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>269.99</div>
+        </div>
+        <div class="hover-content">
+          <button type="submit">Add to card</button>
+          <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+        </div>
+      </div> 
+      <div class="product-box">
+        <div class="product-photo2"></div>
+        <div class="product-text">
+          <h5>Iconia W700</h5>
+          <p>ACER</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>629.99</div>
+        </div>
+        <div class="hover-content">
+          <button type="submit">Add to card</button>
+          <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+        </div>
+      </div>
+      <div class="product-box">
+        <div class="product-photo3"></div>
+        <div class="product-text">
+          <h5>Play Station 4</h5>
+          <p>SONY</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>399.99</div>
+        </div>
+        <div class="hover-content">
+          <button type="submit">Add to card</button>
+          <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+        </div>
+      </div>
+      <div class="product-box">
+        <div class="product-photo4"></div>
+        <div class="product-text">
+          <h5>2-way Bluetooth Adaptor</h5>
+          <p>SONY</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>79.99</div>
+        </div>
+        <div class="hover-content">
+          <button type="submit">Add to card</button>
+          <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+        </div>
+      </div>
+      <div class="product-box">
+        <div class="product-photo5"></div>
+        <div class="product-text">
+          <h5>Acer TravelMate B113-E-10072G32akk</h5>
+          <p>ACER</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>149.13</div>
+        </div>
+        <div class="hover-content">
+          <button type="submit">Add to card</button>
+          <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+        </div>
+      </div>
+      <div class="product-box">
+        <div class="product-photo6"></div>
+        <div class="product-text">
+          <h5>Cyber-shot Digital Camera WX300</h5>
+          <p>SONY</p>
+        </div>
+        <div class="product-price">
+          <div class="lastPrice"></div>
+          <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>249.99-<i class="fa fa-gbp" aria-hidden="true"></i>329.99</div>
+          </div>
+          <div class="hover-content">
+            <button type="submit">Add to card</button>
+            <div class="hoverText"><p>Add to wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p></div>
+          </div>
+      </div>
+      
+    </div>
+    <div class="right-content">
+      <div class="photoSlide"></div>
+      <div class="thumb-content">
+        <ul class="thumb">
+          <li onclick="photo1()" ><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p15.1-100x100.png" alt=""></li>
+           <li onclick="photo2()" ><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p15.1-100x100.png" alt="" ></li>
+           <li onclick="photo3()" ><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p15.2-100x100.png" alt=""></li>
+           <li onclick="photo4()" ><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p15-100x100.png" alt=""></li>
+       
+        </ul>
+      </div>
+      <div class="photo-text">
+        <h4><a href="">65” Class (diag) X950B Flagship 4K Ultra HD TV</a></h4>
+        <p class=>SONY</p>
+      </div>
+      <div class="content-price">
+      <div class="productPrice"><p><del><i class="fa fa-gbp" aria-hidden="true"></i>7.999.99</del> <i class="fa fa-gbp" aria-hidden="true"></i>6.999.99</p></div>
+      <button type="submit">Add to card</button>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Section End -->
+     
+  <!-- Section Start -->
+  <section class="section6">
+    <div class="container">
+   <div class="head-text">
+    <h1>Recend Products</h1>
+    <hr>
+   </div>
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p26-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">Xperia Z 4G LTE for T-Mobile</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+                <div class="lastPrice"><del><i class="fa fa-gbp" aria-hidden="true"></i>579.99</del></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>399.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p21-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">White lumia 9001</a></h6>
+                <p>NOKIA</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>150.00</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p1-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">VAIO Fit Laptop</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>1.399.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/34-246x186.jpg" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">Surface Tablet with Keyboard</a></h6>
+                <p>TVC</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>1.199.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p21.0-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">SmartWatch 2 <br>Watchband</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>19.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/12-246x186.jpg" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">POV Action Cam  <br> HDR AS100V</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+                <div class="lastPrice"><del><i class="fa fa-gbp" aria-hidden="true"></i>299.99</del></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>269.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+      
+          <!-- item end -->
+      
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/35-246x186.jpg" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">Portable&nbsp;Bluetooth Speaker</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>69.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p16-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">PlayStation&nbsp;Vita(Wi-Fi and 3G)</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+                <div class="lastPrice"><del><i class="fa fa-gbp" aria-hidden="true"></i>299.99</del></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>199.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/53-246x186.jpg" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">PlayStation 4</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>399.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/39-246x186.jpg" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">Kardon BDS&nbsp;7772/
+                  120 intergrated 3D</a></h6>
+                  <p>HARMAN</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>1.999.95</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+          <div class="item">
+            <div class="card">
+              <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p22.1-246x186.png" alt="" class="img-card-top">
+              <div class="card-body">
+                <h6><a href="">Internet Player with Google TV</a></h6>
+                <p>SONY</p>
+              </div>
+              <div class="card-body-second">
+
+                <div class="lastPrice"><del><i class="fa fa-gbp" aria-hidden="true"></i>199.99</del></div>
+                <div class="currentPrice"><i class="fa fa-gbp" aria-hidden="true"></i>99.99</div>
+              </div>
+              <div class="card-body-hover">
+                <button type="submit"> Add to card</button>
+                <p>Add to Wishlist <i class="fa fa-exchange" aria-hidden="true"></i> Compare</p>
+              </div>
+            </div>
+           
+          </div>
+          <!-- item end -->
+      
+        </div>
+    
+      
+      </div>
+    </div>
+
+  </section>
+  <!-- Section End -->
+  <section class="section7">
+ <div class="container">
+   <div class="head-text">
+     <h1>Our Brands</h1>
+     <hr>
+    
+   </div>
+   <div class="row">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="card">
+          <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/brand-04.jpg" alt="" class="img-card-top">
+        </div>
+      </div>
+      <!-- item end -->
+      <div class="item">
+        <div class="card">
+          <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/brand-03.jpg" alt="" class="img-card-top">
+        </div>
+      </div>
+      <!-- item end -->
+      <div class="item">
+        <div class="card ">
+          <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/brand-02.jpg" alt="" class="img-card-top">
+        </div>
+      </div>
+      <!-- item end -->
+      <div class="item">
+        <div class="card ">
+          <img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/brand-01.jpg" alt="" class="img-card-top">
+        </div>
+      </div>
+     
+   
+      
+  </div>
+   </div>
+ </div>
+  </section>
+<!-- Section Start  -->
+<section class="section8">
+<div class="container-fluid">
+  <div class="contentBox">
+    <div class="head-text"><p>Featured Products</p></div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">Iconia W700</a></h6>
+        <p><i class="fa fa-gbp" aria-hidden="true"></i>629.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p4.2-246x186.png" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">POW Action Cam HDR_AS_100v</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+        <p><del><i class="fa fa-gbp" aria-hidden="true"></i>299.99</del> <i class="fa fa-gbp" aria-hidden="true"></i>269.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/12-246x186.jpg" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">PlayStation 4</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+        <p><i class="fa fa-gbp" aria-hidden="true"></i>399.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/53-246x186.jpg" alt=""></div>
+    </div>
+  </div>
+  <div class="contentBox">
+    <div class="head-text"><p>Special Offers</p></div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">Dell Inspiron 15.6-Inch Touchscreen</a></h6>
+        <p><del><i class="fa fa-gbp" aria-hidden="true"></i>899.99</del>  <i class="fa fa-gbp" aria-hidden="true"></i>849.00</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/81-DD-c1jdL._SL1500_-246x186.jpg" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">Xperia Z 4G LTE for T-Mobile</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+        <p><del><i class="fa fa-gbp" aria-hidden="true"></i>579.99</del>  <i class="fa fa-gbp" aria-hidden="true"></i>399.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p26-246x186.png" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href=""> 50" (diag) W800B Premium LED HDTV</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+        <p><del><i class="fa fa-gbp" aria-hidden="true"></i>1.999.99</del>  <i class="fa fa-gbp" aria-hidden="true"></i>999.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p23-246x186.png" alt=""></div>
+    </div>
+  </div>
+  <div class="contentBox">
+    <div class="head-text"><p>Top Rated Products</p></div> 
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">2-way Bluetooth Adaptor</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+        <p><i class="fa fa-gbp" aria-hidden="true"></i>79.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/27-246x186.jpg" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">Floor standing speaker</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+        <p><i class="fa fa-gbp" aria-hidden="true"></i>199.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/31-246x186.jpg" alt=""></div>
+    </div>
+    <div class="productContent">
+      <div class="product-text">
+        <h6><a href="">50" (diag)W800B Premium LED HDTV</a></h6>
+        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+        <p><del><i class="fa fa-gbp" aria-hidden="true"></i>1.999.99</del> <i class="fa fa-gbp" aria-hidden="true"></i>999.99</p>
+      </div>
+      <div class="product-photo"><img src="https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p23-246x186.png" alt=""></div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Section End -->
+
+<!-- Section Start -->
+<section class="section9">
+  <form> <input type="search"><button type="submit">Search</button></form>
+<div class="container-fluid">
+  <div class="leftBox">
+    <div class="logo"><img src="image/2.png" alt=""></div>
+    <h6>Feel free to contact us via phone,email or just send us mail.</h6>
+   <p>17 Princess Road, London, Greater London NW1 8JR, UK 1-888-8MEDIA (1-888-892-9953)</p>
+   <p class="end">Get in touch</p>
+   <div class="icon">
+     <div class="icon1"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+     <div class="icon2"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+     <div class="icon3"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div>
+   </div>
+  </div>
+  <div class="content1">
+    <p>Find it Fast</p>
+    <ul>
+      <li><a href="">Accessories</a></li>
+      <li><a href="">Cameras & Photography</a></li>
+      <li><a href="">Gadgets</a></li>
+      <li><a href="">Google TV</a></li>
+      <li><a href="">Home Theater</a></li>
+      <li><a href="">Laptops</a></li>
+      <li><a href="">Laptops & Computers</a></li>
+      <li><a href="">Smart Phones & Tablets</a></li>
+      <li><a href="">TV & Audio</a></li>
+      <li><a href="">Video Games & Consoles</a></li>
+      <li><a href="">Watch</a></li>
+      
+    </ul>
+  </div>
+  <div class="content2">
+    <p>Meta</p>
+    <ul>
+      <li><a href="">Log in</a></li>
+      <li><a href="">Entries feed</a></li>
+      <li><a href="">Comments feed </a></li>
+      <li> <a href="">WordPress.org</a></li>
+    </ul>
+  </div>
+  <div class="content3">
+    <p>Pages</p>
+    <ul>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Browse the Shop</a></li>
+      <li><a href="">category</a></li>
+      <li><a href="">Pre-Built Pages</a></li>
+      <li><a href="">Visual Composer Elements</a></li>
+      <li><a href="">WooCommerce Pages</a></li>
+      <li><a href="">WooCommerce Shortcodes </a></li>
+    </ul>
+  </div>
+  <div class="content4">
+    <p>My Account</p>
+    <ul>
+      <li><a href="">Shop</a></li>
+      <li><a href="">Cart</a></li>
+      <li><a href="">Checkout</a></li>
+      <li><a href="">Terms and Conditions</a></li>
+      <li><a href="">My Account</a></li>
+    </ul>
+  </div>
+</div>
+</section>
+<!-- Section End -->
+
+
+<!-- Section start -->
+
+<footer>
+  <div class="text">
+   <h5>&copy;Media Center</h5><p>- All Rights Reserved</p>
+  </div>
+  <div class="logos">
+    <div class="logo1"></div>
+    <div class="logo2"></div>
+    <div class="logo3"></div>
+    <div class="logo4"></div>
+    <div class="logo5"></div>
+  </div>
+</footer>
+
+<!-- Section End -->
+
+
+<!-- <script>
+        
+  var header = document.getElementById("button_div");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    }); 
+  }
+  </script> -->
+  <script src="main.js"></script>
+        <!-- Section end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+    </script>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

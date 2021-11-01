@@ -1,0 +1,25 @@
+section.section_eleven{
+    width: 100%;
+    margin-top: 30px;
+    div.container{
+    height: 300px;
+    border-bottom: 2px solid rgb(194, 189, 189);
+    display: flex;
+    align-items: center;
+    .owl-carousel{
+        div.item{
+            img{
+                width: 150px;
+                height: 90px;
+            }
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width:768px){
+    section.section_eleven{
+        margin-top: 700px;
+    }
+}

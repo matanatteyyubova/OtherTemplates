@@ -1,0 +1,23 @@
+@import "reset";
+body{
+    background-image:url(../image/pexels-miguel-á-padriñán-1591060.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+}
+div.clock{
+ position: absolute;
+ top: 64%;
+ left: 47%;
+ transform: translate(-40%,-40%);
+ border: 1px solid white;
+ padding: 30px 60px;
+ background-color: #5D6D7E;
+ border-radius: 20px;
+}
+h1{
+    padding: 0%;
+    margin: 0%;
+    font-size:60px ;
+    color: white;
+}

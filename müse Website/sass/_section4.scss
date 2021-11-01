@@ -1,0 +1,157 @@
+section.section4{
+    width: 82%;
+    height: 550px;
+    margin-left: 120px;
+    border: 1px solid white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div.boxcontent1{
+        width: 350px;
+        height: 470px;
+        border: 1px solid rgb(228, 227, 227);
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-top: 50px;
+        h1{font-size: 30px; }
+        p{font-size: 18px; color: grey;}
+        div.boxcontent1foto{
+            margin-top: 40px;
+            width: 270px;
+            height: 180px;
+           // border: 1px solid red;
+            background-image: url(https://fabrx.co/muze/assets/img/templates/powerfull.svg);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        div.icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 230px;
+            margin-top: 60px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .10),0 10px 10px -5px rgba(0,0,0, 0.2);
+            i{font-size: 35px; margin-left: 15px; margin-top: 3px;}
+            &:hover{background-color: #44d2a8;}
+        }
+        &:hover{margin-top: -10px;}
+    }
+    div.boxcontent2{
+        width: 350px;
+        height: 470px;
+        border: 1px solid rgb(228, 227, 227);
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-top: 50px;
+        h1{font-size: 30px; }
+        p{font-size: 18px; color: grey;}
+        div.boxcontent1foto{
+            margin-top: 40px;
+            width: 270px;
+            height: 180px;
+            //border: 1px solid red;
+            background-image: url(https://fabrx.co/muze/assets/img/templates/timeline.svg);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        div.icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 230px;
+            margin-top: 60px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .10),0 10px 10px -5px rgba(0,0,0, 0.2);
+            i{font-size: 35px; margin-left: 15px; margin-top: 3px;}
+            &:hover{background-color: #44d2a8;}
+        } 
+        
+        &:hover{margin-top: -10px;}  
+    }
+    div.boxcontent3{
+        width: 350px;
+        height: 470px;
+        border: 1px solid rgb(228, 227, 227);
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        padding-top: 50px;
+        h1{font-size: 30px; }
+        p{font-size: 18px; color: grey;}
+        div.boxcontent1foto{
+            margin-top: 40px;
+            width: 270px;
+            height: 180px;
+           // border: 1px solid red;
+            background-image: url(https://fabrx.co/muze/assets/img/templates/smart-curves.svg);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        div.icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 230px;
+            margin-top: 60px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .10),0 10px 10px -5px rgba(0,0,0, 0.2);
+            i{font-size: 35px; margin-left: 15px; margin-top: 3px;}
+            &:hover{background-color: #44d2a8;}
+        }
+        &:hover{margin-top: -10px;}
+    }
+}
+
+@media only screen and(max-width:760px){
+    section.section4{
+        display: block;
+        height: 1350px;
+        div.boxcontent1{
+            width: 500px;
+            height: 400px;
+            div.boxcontent1foto{
+                 width: 400px;
+                height: 200px;
+                background-size: 90%;
+            }
+            div.icon{
+                 margin-top: -20px;
+                 margin-left: 400px;
+                }
+        }
+        div.boxcontent2{
+            width: 500px;
+            height: 400px;
+            margin-top: 20px;
+            div.boxcontent1foto{
+                 width: 400px;
+                height: 200px;
+                background-size: 90%;
+              
+            }
+            div.icon{
+                 margin-top: -20px;
+                 margin-left: 400px;
+                }
+        }
+        div.boxcontent3{
+            width: 500px;
+            height: 400px;
+            margin-top: 20px;
+            div.boxcontent1foto{
+                 width: 400px;
+                height: 200px;
+                background-size: 90%;
+            }
+            div.icon{
+                 margin-top: -20px;
+                 margin-left: 400px;
+                }
+        }
+    
+    }
+}

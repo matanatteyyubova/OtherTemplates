@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Lesson12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="sass/style.css">
+  </head>
+  <body>
+    
+<header>
+    <div class="content1">
+        <button class="bars">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="icon"><span><i class="fa fa-home" aria-hidden="true"></i></span></div>
+        <div class="logo">Soroniux</div>
+    </div>
+    <div class="content2">
+        <div class="photo"></div>
+    </div>
+</header>
+<div class="content_search">
+    <input class="search" type="search" placeholder="Search Property">
+    <div class="sliders"><i class="fa fa-sliders" aria-hidden="true"></i></div>
+</div>
+<section class="section1">
+  <div class="section1_text">
+    <div class="text1"><span><i class="fa fa-home" aria-hidden="true"></i></span>Property Type</div> 
+    <div class="text2"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div> 
+  </div>
+  <div class="section1_content">
+    <div class="box">
+      <div class="box1"><img src="image/image-2.jpg" alt=""></div>
+      <button onclick="change()" type="button" id="btn1">Room</button>
+    </div>
+    <div class="box">
+      <div class="box1"><img src="image/image-4.jpg" alt=""></div>
+      <button onclick="change2()" id="btn2">Home</button>
+    </div>
+    <div class="box">
+      <div class="box1"><img src="image/image-1.jpg" alt=""></div>
+      <button  onclick="change3()" id="btn3">Flat</button>
+    </div>
+    <div class="box">
+      <div class="box1"><img src="image/image-3.jpg" alt=""></div>
+      <button onclick="change4()" id="btn4">Villa</button>
+    </div>
+    <div class="box">
+      <div class="box1"><img src="image/image-5.jpg" alt=""></div>
+      <button onclick="change5()" id="btn5">Banglow</button>
+    </div>
+    <div class="box">
+      <div class="box1"><img src="image/image-6.jpg" alt=""></div>
+      <button onclick="change6()" id="btn6">Farmhouse</button>
+    </div>
+  </div>
+</section>
+<!-- hisse sonu -->
+<section class="section2">
+  <div class="container-fluid">
+<div class="row">
+<div class="owl-carousel owl-theme">
+    <div class="item">
+        <div class="card">
+            <!-- <img src="image/image-1.jpg" alt="" class="card-img-top"> -->
+            <div class="image">
+              
+              <div class="icon"><i class="far fa-heart "></i></div>
+              <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+            </div>
+            <div class="card-body">
+              <div class="text1">
+                  <p class="main">Devine villa</p>
+                  <p>$ 12.5 lacs</p>      
+              </div>
+              <div class="text2">
+                <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+                <p>3BHK House,2400 sq.ft</p>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- item end -->
+    <div class="item">
+        <div class="card">
+            <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+            <div class="image2">
+              <div class="logo">
+                <p class="percent"> 10% Off</p>
+                <span><p>4 EMI off</p></span>
+              </div>
+              <div class="icon"><i class="far fa-heart "></i></div>
+              <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+            </div>
+            <div class="card-body">
+              <div class="text1">
+                <p class="main">Devine villa</p>
+                <p>$ 12.5 lacs</p>      
+            </div>
+            <div class="text2">
+              <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+              <p>3BHK House,2400 sq.ft</p>
+            </div>
+            </div>
+        </div>
+    </div> 
+     <!-- item end -->
+     <div class="item">
+      <div class="card">
+          <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+          <div class="image3">
+            <div class="icon"><i class="far fa-heart "></i></div>
+            <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+          </div>
+          <div class="card-body">
+            <div class="text1">
+              <p class="main">Devine villa</p>
+              <p>$ 12.5 lacs</p>      
+          </div>
+          <div class="text2">
+            <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+            <p>3BHK House,2400 sq.ft</p>
+          </div>
+          </div>
+      </div>
+  </div> 
+   <!-- item end -->
+   <div class="item">
+    <div class="card">
+        <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+        <div class="image4">
+         
+          <div class="icon"><i class="far fa-heart "></i></div>
+          <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+        </div>
+        <div class="card-body">
+          <div class="text1">
+            <p class="main">Devine villa</p>
+            <p>$ 12.5 lacs</p>      
+        </div>
+        <div class="text2">
+          <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+          <p>3BHK House,2400 sq.ft</p>
+        </div>
+        </div>
+    </div>
+</div> 
+ <!-- item end -->
+
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- Section end----------------------------------------- -->
+<section class="section3">
+<div class="menu_type">
+  <p class="menutype">Select Menu Type</p>
+  <p class="selectstyle">Open menu after selecting style</p>
+  <div class="icon">
+    <div class="onicon"><i class="fa fa-toggle-on" aria-hidden="true"></i><span>Overlay</span></div>
+    <div class="officon"><i class="fa fa-toggle-off" aria-hidden="true"></i><span>Reveal</span></div>
+  </div>
+</div>
+<div class="facilities">
+  <div class="section3_text">
+    <div class="text1"><span></span><i class="fa fa-futbol-o" aria-hidden="true"></i></span> <span>Facilities</span></div> 
+    <div class="text2"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div> 
+  </div> 
+  <div class="section3_content">
+    <div class="box">
+      <div class="box1"><i class="fa fa-car ms-4" aria-hidden="true"></i></div>
+      <button onclick="change7()" id="btn7" >Parking</button>
+    </div>
+    <div class="box">
+      <div class="box1"><i class="fa fa-futbol-o ms-4" aria-hidden="true"></i></div>
+      <button onclick="change8()" id="btn8">Sports</button>
+    </div>
+    <div class="box">
+      <div class="box1"><i class="fa fa-certificate " aria-hidden="true"></i></div>
+      <button onclick="change9()"  id="btn9">Garden</button>
+    </div>
+    
+  </div>
+</div>
+</section>
+<!-- Section end--------------------------------------- -->
+<section class="section4">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card">
+                <!-- <img src="image/image-1.jpg" alt="" class="card-img-top"> -->
+                <div class="image">
+                  <div class="logo">
+                    <p class="percent"> Now 10% </p>
+                    <span><p>Cashback</p></span>
+                  </div>
+                  <div class="icon"><i class="far fa-heart "></i></div>
+          <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+                </div>
+                <div class="card-body">
+                  <div class="text1">
+                    <p class="main">Devine villa</p>
+                    <p><i class="far fa-money-bill-alt"></i></p>      
+                </div>
+                <div class="text2">
+                  <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+                  <p>$ 12.5 lacs</p>
+                </div>
+                    </div>
+                    <hr>
+                    <div class="card_body2">
+                     <div class="cardicon1">
+                       <div class="icon1"><i class="fas fa-car"></i> <br> <p>Parking</p></div>
+                       <div class="icon2"><i class="fas fa-futbol"></i> <br> <p>Sport</p></div>
+                       <div class="icon3"><i class="fas fa-certificate"></i> <br> <p>Garden</p></div>
+
+                     </div>
+                     <div class="cardicon1"> <p>3BHK House <br> 2400 sq.ft</p></div>
+                    </div>
+                
+            </div>
+        </div>
+        <!-- item end -->
+        <div class="item">
+            <div class="card">
+                <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+                <div class="image2">
+                  <div class="icon"><i class="far fa-heart "></i></div>
+          <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+                </div>
+                <div class="card-body">
+                  <div class="text1">
+                    <p class="main">Devine villa</p>
+                    <p><i class="far fa-money-bill-alt"></i></p>      
+                </div>
+                <div class="text2">
+                  <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+                  <p>$ 12.5 lacs</p>
+                </div>
+                </div>
+                <hr>
+                <div class="card_body2">
+                  <div class="cardicon1">
+                    <div class="icon1"><i class="fas fa-car"></i> <br> <p>Parking</p></div>
+                    <div class="icon2"><i class="fas fa-futbol"></i> <br> <p>Sport</p></div>
+                    <div class="icon3"><i class="fas fa-certificate"></i> <br> <p>Garden</p></div>
+
+                  </div>
+                  <div class="cardicon1"> <p>3BHK House <br> 2400 sq.ft</p></div>
+                </div>
+            </div>
+        </div> 
+         <!-- item end -->
+         <div class="item">
+          <div class="card">
+              <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+              <div class="image3">
+                <div class="icon"><i class="far fa-heart "></i></div>
+          <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+              </div>
+              <div class="card-body">
+                <div class="text1">
+                  <p class="main">Devine villa</p>
+                  <p><i class="far fa-money-bill-alt"></i></p>      
+              </div>
+              <div class="text2">
+                <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+                <p>$ 12.5 lacs</p>
+              </div>
+              </div>
+              <hr>
+              <div class="card_body2">
+                <div class="cardicon1">
+                  <div class="icon1"><i class="fas fa-car"></i> <br> <p>Parking</p></div>
+                  <div class="icon2"><i class="fas fa-futbol"></i> <br> <p>Sport</p></div>
+                  <div class="icon3"><i class="fas fa-certificate"></i> <br> <p>Garden</p></div>
+
+                </div>
+                <div class="cardicon1"> <p>3BHK House <br> 2400 sq.ft</p></div>
+              </div>
+          </div>
+      </div> 
+       <!-- item end -->
+       <div class="item">
+        <div class="card">
+            <!-- <img src="image/Az.jpg" alt="" class="card-img-top"> -->
+            <div class="image4">
+              <div class="icon"><i class="far fa-heart "></i></div>
+          <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+            </div>
+            <div class="card-body">
+              <div class="text1">
+                <p class="main">Devine villa</p>
+                <p><i class="far fa-money-bill-alt"></i></p>      
+            </div>
+            <div class="text2">
+              <p>4.5<i class="fas fa-star"></i>| &nbsp; Canada</p>
+              <p>$ 12.5 lacs</p>
+            </div>
+            </div>
+            <hr>
+            <div class="card_body2">
+              <div class="cardicon1">
+                <div class="icon1"><i class="fas fa-car"></i> <br> <p>Parking</p></div>
+                <div class="icon2"><i class="fas fa-futbol"></i> <br> <p>Sport</p></div>
+                <div class="icon3"><i class="fas fa-certificate"></i> <br> <p>Garden</p></div>
+
+              </div>
+              <div class="cardicon1"> <p>3BHK House <br> 2400 sq.ft</p></div>
+            </div>
+        </div>
+    </div> 
+     <!-- item end -->
+    
+    </div>
+    
+    
+    </div>
+    </div>
+</section>
+<!-- Section end---------------------------------------------------------------------- -->
+<section class="section5">
+  <div class="layout_type">
+    <p class="layouttype">Select Layout Mode</p>
+    <p class="selectstyle">Choose light or dark mode of layout</p>
+    <div class="icon">
+      <div class="onicon"><i class="fa fa-toggle-on" aria-hidden="true"></i><span>Light</span></div>
+      <div class="officon"><i class="fa fa-toggle-off" aria-hidden="true"></i><span>Dark</span></div>
+    </div>
+  </div>
+</section>
+<!-- Section end------------------------------------------------------------------- -->
+<section class="section6">
+  <div class="layout_type">
+    <div class="foto"><img src="image/image-3.jpg" alt="">
+      <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+    </div>
+
+  <div class="right">
+  <div class="right1">
+    <div class="miniright1"><span><a href="">Exoticasi Duplex</a></span><p>Canada</p></div>
+    <div class="miniright2"><span>4.5 <i class="fa fa-star" aria-hidden="true"></i></span><p>3BKH,2400sq.ft</p></div>
+
+  </div>
+  <div class="line"></div>
+  <div class="right2">
+    <div class="miniicon1"><i class="fa fa-car " aria-hidden="true"></i><i class="fa fa-futbol-o " aria-hidden="true"></i><i class="fa fa-certificate " aria-hidden="true"></i></div>
+    <div class="miniicon2"><i class="far fa-heart text-danger"></i></div>
+  </div>
+</div>
+  </div>
+  <div class="layout_type">
+    <div class="foto"><img src="image/image-5.jpg" alt="">
+      <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+    </div>
+
+  <div class="right">
+  <div class="right1">
+    <div class="miniright1"><span><a href="">Exoticasi Duplex</a></span><p>Canada</p></div>
+    <div class="miniright2"><span>4.5 <i class="fa fa-star" aria-hidden="true"></i></span><p>3BKH,2400sq.ft</p></div>
+
+  </div>
+  <div class="line"></div>
+  <div class="right2">
+    <div class="miniicon1"><i class="fa fa-car " aria-hidden="true"></i><i class="fa fa-futbol-o " aria-hidden="true"></i><i class="fa fa-certificate " aria-hidden="true"></i></div>
+    <div class="miniicon2"><i class="far fa-heart text-danger"></i></div>
+  </div>
+</div>
+  </div>
+  <div class="layout_type">
+    <div class="foto"><img src="image/image-4.jpg" alt="">
+      <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+    </div>
+
+  <div class="right">
+  <div class="right1">
+    <div class="miniright1"><span><a href="">Exoticasi Duplex</a></span><p>Canada</p></div>
+    <div class="miniright2"><span>4.5 <i class="fa fa-star" aria-hidden="true"></i></span><p>3BKH,2400sq.ft</p></div>
+
+  </div>
+  <div class="line"></div>
+  <div class="right2">
+    <div class="miniicon1"><i class="fa fa-car " aria-hidden="true"></i><i class="fa fa-futbol-o " aria-hidden="true"></i><i class="fa fa-certificate " aria-hidden="true"></i></div>
+    <div class="miniicon2"><i class="far fa-heart text text-danger"></i></div>
+  </div>
+</div>
+  </div>
+  <div class="layout_type">
+    <div class="foto"><img src="image/image-4.jpg" alt="">
+      <div class="text"><span><i class="far fa-images text-light"></i></span><p>10</p></div>
+    </div>
+
+  <div class="right">
+  <div class="right1">
+    <div class="miniright1"><span><a href="">Exoticasi Duplex</a></span><p>Canada</p></div>
+    <div class="miniright2"><span>4.5 <i class="fa fa-star" aria-hidden="true"></i></span><p>3BKH,2400sq.ft</p></div>
+
+  </div>
+  <div class="line"></div>
+  <div class="right2">
+    <div class="miniicon1"><i class="fa fa-car " aria-hidden="true"></i><i class="fa fa-futbol-o " aria-hidden="true"></i><i class="fa fa-certificate " aria-hidden="true"></i></div>
+    <div class="miniicon2"><i class="far fa-heart  text-danger"></i></div>
+  </div>
+</div>
+  </div>
+</section>
+<!-- Section end------------------------------------------------------------------ -->
+<section class="section7">
+  <div class="home">
+    <div class="homeicon"><i class="fas fa-home text-light"></i></div>
+    <div class="homeright">
+      <p>Add to<span>Home screen</span></p>
+      <p class="two">See PWA app as in <br> fullscreen on your device.</p>
+      <button  class="install">INSTALL</button>
+    </div>
+  </div>
+  <div class="aboutus">
+    <p><span>About us</span></p>
+    <p class="p1">Its time to fall in love with <br>
+      Creative design, <br>
+       Flexibility & Uniqueness.</p>
+    <p><span>We are at our best</span></p>
+    <p class="p2">User experienced user interfaces with <br> HTML and CSS also providing flexibility <br>
+       of style color customization. We have <br>
+        created specific website template <br>
+         demos and component library which be <br>
+          used across any demo.</p>
+    <button  class="read">READ MORE</button>
+  </div>
+</section>
+<!-- Section end------------------------------------------------------------------ -->
+<section class="section8">
+
+  <div class="nav">
+    <div class="text"><span><i class="far fa-images"></i></span><p>Pages</p></div>
+    <div class="menu">
+      <ul>
+        <li><a class="main" href="">About</a></li>
+        <li><a class="main" href="">Analytics</a></li>
+        <li><a class="main" href="">Booking</a></li>
+        <li><a class="main" href="">Buy Now</a></li>
+        <li><a class="main"href="">Error</a></li>
+        <li><a  href="">More 20+ pages</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Section end------------------------------------------------------------------ -->
+  <footer>
+    <div class="icon">
+      <div class="icon1"><p>Connect with us</p></div>
+      <div class="icon2"><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i><i class="fab fa-pinterest"></i><i class="fab fa-google"></i></div>
+    </div>
+    <p class="end">All rights reserved by Soroniux</p>
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script>
+      $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:3
+      }
+  }
+})
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+
+responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:3
+    }
+}
+})
+</script>
+
+<script src="main.js"></script>
+  </body>
+</html> 

@@ -1,0 +1,84 @@
+section.section2{
+    margin-top: 120px;
+    width: 82%;
+    height: 1040px;
+    border: 1px solid white;
+    margin-left: 120px;
+    div.text{
+      width: 680px;
+      height: 210px;
+    border: 1px solid white;
+      margin-left: 220px;
+      margin-top: 20px;
+      h1{
+          margin-left: 340px;
+          margin-top: 30px;
+          font-size: 60px;
+          font-weight: bold;
+           position: absolute;
+           
+          transform: translate(-50%,-50%);
+         
+          span{
+          border-bottom: 5px solid #44d2a8;
+            
+          }
+    }
+    p{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    span.section_text{
+        margin-left: 160px;
+    }
+}
+div.section_photo{
+    margin-top: 80px;
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    background-image: url(https://fabrx.co/muze/assets/img/templates/figma.png);
+    box-sizing: border-box;
+    padding-top: 280px;
+    button.btn1{
+        width: 200px;
+        border-radius: 30px;
+        height: 50px;
+        margin-left: 450px;
+        border: none;
+        background-color: #44d2a8 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{background-color: black;}
+       span{
+        
+        font-size: 20px;
+        color: white;
+       }
+        i{margin-right: 5px; font-size: 26px; color: white;}
+        
+    }
+}
+}
+
+@media only screen and(max-width:760px){
+    section.section2{
+        margin-left: 0px;
+        height: 800px;
+        div.text{
+            margin-left: 0px;
+            h1{
+                font-size: 30px;
+            }
+            p{font-size: 18px; margin-left: 40px;}
+        }
+        div.section_photo{
+            width: 600px;
+            height: 350px;
+            background-size: 100%;
+            margin-left: 50px;
+            button.btn1{ margin-top: -140px; margin-left: 200px;}
+        }
+    }
+}

@@ -1,0 +1,246 @@
+section.section5{
+    div.content-head{
+    margin-left: 100px;
+    font-size: 40px;
+    color: rgb(97, 96, 96);
+    }
+
+    div.container{
+        margin-top: 40px;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:stretch;
+        //border: 1px solid red;
+        padding: 0;
+       
+        div.right-content{
+            width:490px ;
+            margin-left: -5px;
+            height: 600px;
+            border: 1px solid rgb(231, 230, 230) ;
+            div.photoSlide{
+                width: 400px;
+                height: 300px;
+                margin-left: 40px;
+                margin-top: 50px;
+               // border: 1px solid red;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p15.1-433x361.png);
+                background-size: 90%;
+                background-position: center;
+                background-repeat: no-repeat;
+
+            }
+            div.thumb-content{
+                width: 100%;
+                height: 100px;
+                //border: 1px solid red;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                ul.thumb{
+                    display: flex;
+                    padding-left: 0;
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    li{ 
+                        width: 80px;
+                        height: 70px;
+                       
+                        list-style: none;
+                        border: 1px solid rgba(0,0,0, .2);
+                        box-sizing: border-box;
+                        padding-left: 5px;
+                        
+                            img{
+                                width: 70px;
+                                height: 70px;
+                            }
+                    
+                    }
+                }
+            }
+            div.content-price{
+                width: 100%;
+                height: 70px;
+                margin-top: -20px;
+                border-top: 1px solid rgb(219, 216, 216);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .productPrice{
+                    del{
+                        font-size: 20px;
+                        margin-left: 20px;
+                        color: grey;
+                        font-weight: bold;
+                        margin-right: 10px;
+                    }
+                    p{
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                }
+                button{
+                    width: 150px;
+                    height: 50px;
+                    border: none;
+                    background-color: #59b210;
+                    border-radius: 5px;
+                    color: white;
+                    margin-right: 20px;
+                    font-size: 18px;
+                }
+            }
+            div.photo-text{
+                margin-left: 20px;
+                h4{
+                    a{
+                        text-decoration: none;
+
+                    }
+                }
+            }
+            
+        }
+        div.left-content{
+            width: 650px;
+            height: 600px;
+           // border: 1px solid red;
+            display: flex;
+            flex-wrap: wrap;
+            div.product-text{
+                width: 96%;
+                height: 100px;
+               
+                border-bottom: 1px solid rgb(189, 187, 187);
+            h5{ color: #1257ab;}
+            p{font-size: 14px;}
+            }
+            div.product-price{
+                width: 98%;
+                display: flex;
+                justify-content: space-between;
+                //border: 1px solid red;
+                height: 45px;
+                div.lastPrice{
+                    color: grey;
+                    font-weight: bold;
+                }
+            }
+         div.product-box{
+             width: 215px;
+             height: 300px; 
+             border: 1px solid rgb(231, 230, 230);
+             box-sizing: border-box;
+            padding-left: 5px;
+            &:hover{
+                box-shadow: 5px 10px 8px 10px rgb(231, 230, 230);
+                div.hover-content{display: block;}
+                div.product-price{border-bottom: 1px solid  rgb(189, 187, 187);}
+            }
+           
+            div.hover-content{
+                width: 213px; 
+                margin-left: -5px;
+                height: 60px; 
+                display: none; 
+                //border: 1px solid red;
+                z-index: 66666;
+                position: absolute;
+                background-color: white;
+                border-bottom: 1px solid rgb(211, 208, 208) ;
+                button{
+                    width: 110px;
+                    height: 35px;
+                    position: absolute;
+                    margin-top: -20px;
+                    border: none;
+                    margin-left: 45px;
+                    background-color: #59b210;
+                    border-radius: 5px;
+                    color: white;
+                   
+                }
+                div.hoverText{
+                    p{font-size: 14px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    color: grey;
+                }
+                }
+               }
+             div.product-photo{
+                 width: 200px;
+                 height: 150px;
+                 //border: 1px solid red;
+                 background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/12-246x186.jpg);
+                 background-size: 100%;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                
+            
+             }
+             div.product-photo2{
+                width: 200px;
+                height: 150px;
+               // border: 1px solid red;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p4.2-246x186.png);
+            }
+            div.product-photo3{
+                width: 200px;
+                height: 150px;
+               // border: 1px solid red;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/53-246x186.jpg);
+
+            }
+            div.product-photo4{
+                width: 200px;
+                height: 150px;
+                //border: 1px solid red;
+                background-size: 100%;
+                z-index: 1;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/27-246x186.jpg);
+            }
+            div.product-photo5{
+                width: 200px;
+                height: 150px;
+                //border: 1px solid red;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/p11-246x186.jpg);
+            }
+            div.product-photo6{
+                width: 200px;
+                height: 150px;
+                //border: 1px solid red;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://demo2.chethemes.com/mediacenter/wp-content/uploads/2014/09/9-246x186.jpg);
+            }
+
+         }
+        }
+    }
+}
+
+@media only screen and(max-width:760px) {
+    section.section5{
+        margin-top: 1200px;
+        margin-left: 40px;
+        div.right-content{
+            margin-top: 320px;
+        }
+    }
+}
